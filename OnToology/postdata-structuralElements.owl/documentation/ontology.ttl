@@ -7,22 +7,32 @@
 @base <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> rdf:type owl:Ontology ;
-                                                                      owl:imports <http://purl.org/ontology/olo/core#> ;
-                                                                      <http://creativecommons.org/ns#license> "http://creativecommons.org/licenses/by-sa/3.0/" ,
-                                                                                                              "http://www.gnu.org/copyleft/fdl.html" ;
-                                                                      <http://purl.org/dc/elements/1.1/creator> "POSTADATA Ontology V1.0"@en ,
-                                                                                                                "Helena Bermúdez Sabel  -- https://orcid.org/0000-0001-7782-206X" ,
-                                                                                                                "Mª Luisa Díez Platas -- https://orcid.org/0000-0002-9416-3147" ;
-                                                                      <http://purl.org/dc/elements/1.1/description> "Common ontology using semantic web technologies and W3C standards (such as OWL) and publish the metadata extracted from the poetry philological conceptualization  as linked open data (LOD), ready to be shared, linked and improved by the community of users"@en ;
-                                                                      <http://purl.org/dc/elements/1.1/title> "POSTDATA STRUCTURAL ELEMENTS Ontology"@en ;
+                                                                      owl:imports <http://postdata.linhd.uned.es/ontology/POSTDATA-core> ,
+                                                                                  <http://purl.org/ontology/olo/core#> ;
+                                                                      <http://purl.org/dc/elements/1.1/contributors> """Alvaro Pérez (LINHD_POSTDATA-UNED)
+https://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"""@en ,
+                                                                                                                     """Bruno Sartini (Bolonia University)
+https://orcid.org/0000-0002-9152-4402"""@en ,
+                                                                                                                     """Javier de la Rosa (LINHD_POSTDATA-UNED)
+https://www.linkedin.com/in/versae/"""@en ,
+                                                                                                                     """Oscar Corcho (Universidad Politécnica de Madrid)
+http://orcid.org/0000-0002-9260-0753"""@en ;
+                                                                      <http://purl.org/dc/elements/1.1/creator> """Helena Bermúdez Sabel 
+https://orcid.org/0000-0001-7782-206X"""@en ,
+                                                                                                                """Mª Luisa Díez Platas 
+https://orcid.org/0000-0002-9416-3147"""@en ;
+                                                                      <http://purl.org/dc/elements/1.1/date> "2019-07-12"@en ;
+                                                                      <http://purl.org/dc/elements/1.1/description> "This ontology module contains classes and properties that provide information about the structure of a redaction. It models the structural elements from lexical level like lexical units, for example, word, to more complexity level as line or stanza."@en ;
+                                                                      <http://purl.org/dc/elements/1.1/title> "postdata-structural ontology"@en ;
                                                                       <http://purl.org/dc/terms/publisher> """POSTDATA Project
 
 “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
 Principal Investigator. Elena González Blanco -- https://orcid.org/0000-0002-0448-1812
 Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958"""@en ,
                                                                                                            "POSTDATA Project" ;
-                                                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "postdata" ;
-                                                                      owl:versionInfo "V1.0" .
+                                                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdstruct" ;
+                                                                      owl:versionInfo "V1.0" ;
+                                                                      <http://www.w3.org/2003/06/sw-vocab-status/ns#license> "https://creativecommons.org/licenses/by/4.0/"@en .
 
 #################################################################
 #    Annotation properties
@@ -30,6 +40,10 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 
 ###  http://creativecommons.org/ns#license
 <http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributors
+<http://purl.org/dc/elements/1.1/contributors> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/creator
@@ -56,192 +70,69 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 <http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
 
 
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://postdata.linhd.uned.es/ontology/POSTDATA-relatedEntities.owl/property#vc-roleFunction
-<http://postdata.linhd.uned.es/ontology/POSTDATA-relatedEntities.owl/property#vc-roleFunction> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/POSTDATA-relatedEntities.owl/property#vc-typeOfCharacter
-<http://postdata.linhd.uned.es/ontology/POSTDATA-relatedEntities.owl/property#vc-typeOfCharacter> rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-audience
-:vc-audience rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-audienceEducationLevel
-:vc-audienceEducationLevel rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-authorEducationLevel
-:vc-authorEducationLevel rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-birthDateCertainty
-:vc-birthDateCertainty rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-birthPlaceCertainty
-:vc-birthPlaceCertainty rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-certainty
-:vc-certainty rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-clausula
-:vc-clausula rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-clausulaSchemaType
-:vc-clausulaSchemaType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-dateCertainty
-:vc-dateCertainty rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-feetType
-:vc-feetType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-figureCategory
-:vc-figureCategory rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-footType
-:vc-footType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-function
-:vc-function rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-gender
-:vc-gender rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-genre
-:vc-genre rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-metricalCategory
-:vc-metricalCategory rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-metricalComplexity
-:vc-metricalComplexity rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-metricalContext
-:vc-metricalContext rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-metricalType
-:vc-metricalType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-poeticType
-:vc-poeticType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-religiousAffiliation
-:vc-religiousAffiliation rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-rhymeCategory
-:vc-rhymeCategory rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-rhymeDispositionType
-:vc-rhymeDispositionType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-roleFunction
-:vc-roleFunction rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-script
-:vc-script rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-socialStatus
-:vc-socialStatus rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfBibliographicItem
-:vc-typeOfBibliographicItem rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfCharacter
-:vc-typeOfCharacter rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfDesignation
-:vc-typeOfDesignation rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfEdition
-:vc-typeOfEdition rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfEvent
-:vc-typeOfEvent rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfIntertextuality
-:vc-typeOfIntertextuality rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfMusicalNotation
-:vc-typeOfMusicalNotation rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfParatext
-:vc-typeOfParatext rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfPlace
-:vc-typeOfPlace rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfRedaction
-:vc-typeOfRedaction rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfRhymeMatching
-:vc-typeOfRhymeMatching rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfStanza
-:vc-typeOfStanza rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-typeOfStanzaEdition
-:vc-typeOfStanzaEdition rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-unitType
-:vc-unitType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-versificationType
-:vc-versificationType rdf:type rdfs:Datatype .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#vc-writingTechnique
-:vc-writingTechnique rdf:type rdfs:Datatype .
+###  http://www.w3.org/2003/06/sw-vocab-status/ns#license
+<http://www.w3.org/2003/06/sw-vocab-status/ns#license> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList
+:belongsToLineList rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf <http://purl.org/ontology/olo/core#ordered_list> ;
+                   rdfs:domain :LineItem ;
+                   rdfs:range :OrderedLineList ;
+                   rdfs:comment "Item that belongs to a lines list"@en ;
+                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                   rdfs:label "belongsToLineList"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList
+:belongsToStanzaList rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf <http://purl.org/ontology/olo/core#ordered_list> ;
+                     owl:inverseOf :hasStanzaItem ;
+                     rdfs:domain :StanzaItem ;
+                     rdfs:range :OrderedStanzaList ;
+                     rdfs:isDefinedBy "Item that belongs to a stanzas list"@en ,
+                                      "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                     rdfs:label "belongsToStanzaList"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToSylableList
+:belongsToSylableList rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf <http://purl.org/ontology/olo/core#ordered_list> ;
+                      rdfs:domain :SyllableItem ;
+                      rdfs:range :OrderedSyllableList .
+
+
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#contains
 :contains rdf:type owl:ObjectProperty .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo
+:containsMentionTo rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Line ;
+                   rdfs:comment "Agent or Place that is mentioned on the line"@en ;
+                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                   rdfs:label "containsMentionTo"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent
+:containsMentionToAgent rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :containsMentionTo ;
+                        rdfs:comment "Agent  that is mentioned on the line"@en ;
+                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                        rdfs:label "containsMentionToAgent"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace
+:containsMentionToPlace rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :containsMentionTo ;
+                        rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Place> ;
+                        rdfs:comment "Place that is mentioned on the line"@en ;
+                        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                        rdfs:label "containsMentionToPlace"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#corresponds
@@ -258,17 +149,24 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#creates
 :creates rdf:type owl:ObjectProperty ;
-         owl:inverseOf :hasCreator ;
          rdfs:comment "This property points to a bibliographic item (an instance of BibliographicSource, Ensemble, Intertextuality, Melody, Opus, Paratext, Redaction, Stanza) which was authored by the current Creator"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasCreator
-:hasCreator rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf owl:topObjectProperty ;
-            rdf:type owl:FunctionalProperty ;
-            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-            rdfs:comment "This property points to the entity Creator who has created the Stanza under analysis" .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstOfEnjambment
+:firstOfEnjambment rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Enjambment ;
+                   rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                owl:hasValue <http://postdata.linhd.uned.es/kos/grammatical-category>
+                              ] .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstOfSynalepha
+:firstOfSynalepha rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Syllable ;
+                  rdfs:range :Syllable ;
+                  rdfs:comment "This propety points to the previous linguistic syllable that is merged with the current instance of Syllable from a prosodic point of view (synalepha)"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasEditor
@@ -283,28 +181,22 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine
 :hasFirstLine rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:domain [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasFirstLine ;
-                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Line
-                          ] ;
+              owl:inverseOf :isFirstLine ;
+              rdfs:domain :Stanza ;
               rdfs:range :Line ;
               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-              <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-              rdfs:comment "This property points to the first line (an instance of Line) which form the current element under analysis" .
+              rdfs:comment "This property points to the first line (an instance of Line) which form the current element under analysis" ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+              rdfs:label "hasFirstLine"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstPart
-:hasFirstPart rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:domain [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasFirstPart ;
-                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Stanza
-                          ] ;
-              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-              <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-              rdfs:comment "This property points to the first group of lines (an instance of Stanza) which form the current element under analysis"@en .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza
+:hasFirstStanza rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+                rdfs:range :Stanza ;
+                rdfs:comment "This property points to the first group of lines (an instance of Stanza) which form the current element under analysis"@en ;
+                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                rdfs:label "hasFirstStanza"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable
@@ -329,55 +221,97 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken
 :hasFirstToken rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain :Line ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasFirstToken ;
-                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                             owl:onClass :LexicalUnit
-                           ] ;
-               rdfs:range :LexicalUnit ;
+               owl:inverseOf :isFirstToken ;
+               rdfs:domain :Line ;
+               rdfs:range :Token ;
                <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-               <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-               rdfs:comment "This property points to one of the words (an instance of Punctuation or Word) which form the current element under analysis"@en .
+               rdfs:comment "This property points to one of the words (an instance of Punctuation or Word) which form the current element under analysis"@en ;
+               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+               rdfs:label "hasFirstToken"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasMusicalNotation
-:hasMusicalNotation rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf owl:topObjectProperty .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem
+:hasLineItem rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf <http://purl.org/ontology/olo/core#slot> ;
+             rdfs:domain :OrderedLineList ;
+             rdfs:range :LineItem ;
+             rdfs:comment "The list of  items of Line"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "hasLineItem"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasMusicalNotationList
-:hasMusicalNotationList rdf:type owl:ObjectProperty .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLines
+:hasLines rdf:type owl:ObjectProperty ;
+          rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+          rdfs:range :OrderedLineList .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem
+:hasStanzaItem rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <http://purl.org/ontology/olo/core#slot> ;
+               rdfs:domain :OrderedStanzaList ;
+               rdfs:range :StanzaItem ;
+               rdfs:comment "The list of  items  of Stanza"@en ,
+                            "hasStanzaItem"@en ;
+               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzas
+:hasStanzas rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+            rdfs:range :OrderedStanzaList ;
+            rdfs:comment "List of stanzas of a redaction"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "hasStanzas"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllableItem
+:hasSyllableItem rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf <http://purl.org/ontology/olo/core#slot> ;
+                 rdfs:domain :OrderedSyllableList ;
+                 rdfs:range :SyllableItem .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllables
+:hasSyllables rdf:type owl:ObjectProperty ;
+              rdfs:range :OrderedSyllableList .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf
 :isCallOf rdf:type owl:ObjectProperty ;
-          rdfs:domain :Word ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :isCallOf ;
-                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass :Word
-                      ] ;
+          rdfs:domain :Word ;
           rdfs:range :Word ;
-          rdfs:comment "This property points to a previous Word (call) that rhymes with the current instance of Word"@en .
+          rdfs:comment "This property points to a previous Word (call) that rhymes with the current instance of Word"@en ;
+          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+          rdfs:label "isCallOf"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf
 :isEchoOf rdf:type owl:ObjectProperty ;
-          rdfs:domain :Word ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :isEchoOf ;
-                        owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                        owl:onClass :Word
-                      ] ;
+          rdfs:domain :Word ;
           rdfs:range :Word ;
-          rdfs:comment "This property points to a following Word (echo) that that rhymes with the current instance of Word"@en .
+          rdfs:comment "This property points to a following Word (echo) that that rhymes with the current instance of Word"@en ;
+          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+          rdfs:label "isEchoOf"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine
 :isFirstLine rdf:type owl:ObjectProperty ;
              rdfs:domain :Line ;
-             rdfs:comment "This property points to the group of lines (an instance of Stanza) of which the current item under analysis is its first line"@en .
+             rdfs:range :Stanza ;
+             rdfs:comment "This property points to the group of lines (an instance of Stanza) of which the current item under analysis is its first line"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "isFirstLine"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza
+:isFirstStanza rdf:type owl:ObjectProperty ;
+               rdfs:domain :Stanza ;
+               rdfs:range <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> ;
+               rdfs:comment "This property points to the text (an instance of Redaction) of which the current item under analysis is its first line grouping"@en ;
+               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+               rdfs:label "isFirstStanza"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable
@@ -403,14 +337,11 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken
 :isFirstToken rdf:type owl:ObjectProperty ;
-              rdfs:domain :LexicalUnit ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :isFirstToken ;
-                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Line
-                          ] ;
+              rdfs:domain :Token ;
               rdfs:range :Line ;
-              rdfs:comment "This property points to the container (an instance of Line) of which the current item under analysis is its first token" .
+              rdfs:comment "This property points to the container (an instance of Line) of which the current item under analysis is its first token" ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+              rdfs:label "isFirstToken"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm
@@ -425,7 +356,6 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
                              ] ;
                  rdfs:range :Word ;
                  <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
                  rdfs:comment "This property points to its lemma (an instance of Word)"@en .
 
 
@@ -447,33 +377,21 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
                rdfs:comment "This property points to one of the inflected forms (an instance of Word) of the current headword (the Word at hand)"@en .
 
 
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isPart
+:isPart rdf:type owl:ObjectProperty ;
+        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+        rdfs:label "isPart"@en .
+
+
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs
 :isTheSameAs rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :Stanza ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :isTheSameAs ;
-                           owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                           owl:onClass :Stanza
-                         ] ;
+             rdfs:domain :Stanza ;
              rdfs:range :Stanza ;
              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-             rdfs:comment "This property points to another instance of Stanza which belongs to another work or ensemble but that has the same contents as the current item at hand"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTranslated
-:isTranslated rdf:type owl:ObjectProperty ;
-              rdfs:comment "This property points to the work (and instance of Opus) of which the current reference (the instance at hand of BibliographicSource) is a translation"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTranslation
-:isTranslation rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
-               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-               <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-               rdfs:comment "This property points to a bibliographic reference (an instance of BibliographicSource) which is a translation of the current item being analysed"@en ,
-                            "This property points to another stanza (an instance of Stanza) from which the current item being analysed was translated"@en .
+             rdfs:comment "This property points to another instance of Stanza which belongs to another work or ensemble but that has the same contents as the current item at hand"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "isTheSameAs"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#mentions
@@ -481,6 +399,16 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:comment "This property points to an instance of Event that is referred in the current under analysis"@en ,
                        "This property points to an instance of Word to provide further information of a word referred in the Reading"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine
+:nextLine rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf <http://purl.org/ontology/olo/core#next> ;
+          rdfs:domain :LineItem ;
+          rdfs:range :LineItem ;
+          rdfs:comment "This property points to list item that contains an instance of Line that follows the current item under analysis"@en ;
+          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+          rdfs:label "nextLine"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextPart
@@ -498,29 +426,21 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza
 :nextStanza rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:domain :Stanza ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :nextStanza ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onClass :Stanza
-                        ] ;
-            rdfs:range :Stanza ;
+            rdfs:subPropertyOf <http://purl.org/ontology/olo/core#next> ;
+            owl:inverseOf :previousStanza ;
+            rdfs:domain :StanzaItem ;
+            rdfs:range :StanzaItem ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-            rdfs:comment "This property points to an instance of Stanza that follows the current item under analysis" .
+            rdfs:comment "This property points to list item that contains an instance of Stanza that follows the current item under analysis"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "nextStanza"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable
 :nextSyllable rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf owl:topObjectProperty ;
-              rdfs:domain :Syllable ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :nextSyllable ;
-                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Syllable
-                          ] ;
-              rdfs:range :Syllable ;
+              rdfs:subPropertyOf <http://purl.org/ontology/olo/core#next> ;
+              rdfs:domain :SyllableItem ;
+              rdfs:range :SyllableItem ;
               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
               <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
               rdfs:comment "This property points to an instance of Syllable in order to analyse the syllable that comes after the syllable at hand" .
@@ -529,17 +449,36 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken
 :nextToken rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :LexicalUnit ,
+           rdfs:domain :Token ,
                        [ rdf:type owl:Restriction ;
                          owl:onProperty :nextToken ;
                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                         owl:onClass :LexicalUnit
+                         owl:onClass :Token
                        ] ;
-           rdfs:range :LexicalUnit ;
+           rdfs:range :Token ;
            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
            <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
            rdfs:comment "This property points to an instance of Punctuation that follows the current item under analysis"@en ,
                         "This property points to an instance of Word that follows the current item under analysis"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType
+:nucleusType rdf:type owl:ObjectProperty ;
+             rdfs:domain :Syllable ;
+             rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+             rdfs:comment "Type of syllabic nucleus (linguistic typology)"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "nucleusType"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine
+:previousLine rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <http://purl.org/ontology/olo/core#previous> ;
+              rdfs:domain :LineItem ;
+              rdfs:range :LineItem ;
+              rdfs:comment "This property points to the previous item of a list that contains an instance of Line"@en ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+              rdfs:label "previousLine"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousPart
@@ -554,117 +493,139 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza
 :previousStanza rdf:type owl:ObjectProperty ;
-                rdfs:domain :Stanza ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :previousStanza ;
-                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                              owl:onClass :Stanza
-                            ] ;
-                rdfs:range :Stanza ;
-                rdfs:comment "This property points to the previous group of lines (an instance of Stanza) which, together with the current element under analysis, is part of the same textual unit"@en .
+                rdfs:subPropertyOf <http://purl.org/ontology/olo/core#previous> ;
+                rdfs:domain :StanzaItem ;
+                rdfs:range :StanzaItem ;
+                rdfs:comment "This property points to the previous item of a list that contains a group of lines (an instance of Stanza) which, together with the current element under analysis"@en ;
+                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                rdfs:label "previousStanza"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable
 :previousSyllable rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Syllable ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :previousSyllable ;
-                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                owl:onClass :Syllable
-                              ] ;
-                  rdfs:range :Syllable ;
+                  rdfs:subPropertyOf <http://purl.org/ontology/olo/core#previous> ;
+                  rdfs:domain :SyllableItem ;
+                  rdfs:range :SyllableItem ;
                   rdfs:comment "This property points to an instance of Syllable in order to analyse the syllable that comes before the syllable at hand" .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken
 :previousToken rdf:type owl:ObjectProperty ;
-               rdfs:domain :LexicalUnit ,
+               rdfs:domain :Token ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :previousToken ;
                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                             owl:onClass :LexicalUnit
+                             owl:onClass :Token
                            ] ;
-               rdfs:range :LexicalUnit ;
+               rdfs:range :Token ;
                rdfs:comment "This property points to an instance of Punctuation that preceeds the current item under analysis" .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#synalephaFirstElement
-:synalephaFirstElement rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Syllable ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :synalephaFirstElement ;
-                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                     owl:onClass :Syllable
-                                   ] ;
-                       rdfs:range :Syllable .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondOfEnjambment
+:secondOfEnjambment rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Enjambment ;
+                    rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                 owl:hasValue <http://postdata.linhd.uned.es/kos/grammatical-category>
+                               ] .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#synalephaSecondElement
-:synalephaSecondElement rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf owl:topObjectProperty ;
-                        rdfs:domain :Syllable ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :synalephaSecondElement ;
-                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                      owl:onClass :Syllable
-                                    ] ;
-                        rdfs:range :Syllable ;
-                        <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                        <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
-                        rdfs:comment "This propety points to the next linguistic syllable that is merged with the current instance of Syllable from a prosodic point of view (synalepha)" .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondOfSynalepha
+:secondOfSynalepha rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Syllable ;
+                   rdfs:range :Syllable ;
+                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
+                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^xsd:dateTime ;
+                   rdfs:comment "This propety points to the next linguistic syllable that is merged with the current instance of Syllable from a prosodic point of view (synalepha)" .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfEnjambment
+:typeOfEnjambment rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Enjambment ;
+                  rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                               owl:hasValue <http://postdata.linhd.uned.es/kos/enjambmentType>
+                             ] .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza
+:typeOfStanza rdf:type owl:ObjectProperty ;
+              rdfs:domain :Stanza ;
+              rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                           owl:hasValue <http://postdata.linhd.uned.es/kos/stanzaType>
+                         ] ;
+              rdfs:comment "Type of stanza, but not in relation to its metrics. E.g. tornada, refrain"@en ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+              rdfs:label "typeOfStanza"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition
+:typeOfStanzaEdition rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Stanza ;
+                     rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
+                                  owl:hasValue <http://postdata.linhd.uned.es/kos/stanzaEditionType>
+                                ] ;
+                     rdfs:comment """The type of the text provided in the Stanza 
+Eg.: Diplomatic edition, critical edition, translation"""@en ;
+                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                     rdfs:label "typeOfStanzaEdition"@en .
 
 
 ###  http://www.w3.org/2002/07/owl#topObjectProperty
 owl:topObjectProperty rdfs:domain owl:Thing .
 
 
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Data properties
 #################################################################
 
+###  http://postdata.linhd.uned.es/ontology/postdata-core#notes
+<http://postdata.linhd.uned.es/ontology/postdata-core#notes> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:range xsd:string ;
+                                                             rdfs:comment "Comment or explanations"@en ;
+                                                             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core"@en ;
+                                                             rdfs:label "notes"@en .
+
+
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber
 :altStanzaNumber rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdfs:domain :Stanza ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :altStanzaNumber ;
-                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onDataRange xsd:string
-                             ] ;
-                 rdfs:range xsd:string ;
+                 rdfs:domain :Stanza ;
+                 rdfs:range xsd:integer ;
                  <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                 <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                 rdfs:comment "Position of the stanza inside the composition when a different ordering is possible"@en .
+                 rdfs:comment "Position of the stanza inside the composition when a different ordering is possible"@en ;
+                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                 rdfs:label "altStanzaNumber"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda
 :coda rdf:type owl:DatatypeProperty ;
       rdfs:subPropertyOf owl:topDataProperty ;
-      rdfs:domain :Syllable ,
-                  [ rdf:type owl:Restriction ;
-                    owl:onProperty :coda ;
-                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                    owl:onDataRange xsd:string
-                  ] ;
+      rdfs:domain :Syllable ;
       rdfs:range xsd:string ;
       <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-      <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-      rdfs:comment "Sound or sounds that follow the nucleus" .
+      rdfs:comment "Sound or sounds that follow the nucleus" ;
+      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+      rdfs:label "coda"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content
 :content rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
-         rdfs:domain [ rdf:type owl:Restriction ;
-                       owl:onProperty :content ;
-                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                       owl:onDataRange xsd:string
-                     ] ;
          rdfs:range xsd:string ;
          <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-         <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-         rdfs:comment "Full content of the acrostic, that is, the letters"@en ,
-                      "Full content of item" ;
+         rdfs:comment "Full content of item" ;
+         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
          rdfs:label "content"@en .
 
 
@@ -677,22 +638,44 @@ owl:topObjectProperty rdfs:domain owl:Thing .
               rdfs:comment "Editorial commentary"@en .
 
 
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich
+:firstHemistich rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Line ;
+                rdfs:range xsd:string ;
+                rdfs:comment "This property points to the first division of the line (an instance of Line), such as the first hemistich"@en ;
+                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                rdfs:label "firstHemistich"@en .
+
+
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasDiastole
 :hasDiastole rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Word ;
              rdfs:range xsd:boolean ;
              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-             rdfs:comment "If it contains the lengthening of a normally short syllable"@en .
+             rdfs:comment "If it contains the lengthening of a normally short syllable"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "hasDiastole"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasElision
 :hasElision rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Word ;
             rdfs:range xsd:boolean ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-            rdfs:comment "If it presents the combination of two syllables into one for the purposes of poetic scansion"@en .
+            rdfs:comment "If it presents the combination of two syllables into one for the purposes of poetic scansion"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#"@en ;
+            rdfs:label "hasElision"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasEnjambment
+:hasEnjambment rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Line ;
+               rdfs:range xsd:boolean ;
+               rdfs:comment "If the line has Enjambment"@en ;
+               rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+               rdfs:label "hasEnjambment"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasHiatus
@@ -700,8 +683,9 @@ owl:topObjectProperty rdfs:domain owl:Thing .
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:range xsd:boolean ;
            <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-           <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-           rdfs:comment "If it contains the separate pronunciation of the two vowels in a diphthong for the sake of meter"@en .
+           rdfs:comment "If it contains the separate pronunciation of the two vowels in a diphthong for the sake of meter"@en ;
+           rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#"@en ;
+           rdfs:label "hasHiatus"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSynizesis
@@ -709,34 +693,38 @@ owl:topObjectProperty rdfs:domain owl:Thing .
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:range xsd:boolean ;
               <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-              <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-              rdfs:comment "If it presents the union in pronunciation of two adjacent vowels into one syllable without forming a diphthong"@en .
+              rdfs:comment "If it presents the union in pronunciation of two adjacent vowels into one syllable without forming a diphthong"@en ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#"@en ;
+              rdfs:label "hasSynizesis"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSystole
 :hasSystole rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Word ;
             rdfs:range xsd:boolean ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-            rdfs:comment "If it contains the shortening of a syllable regularly long"@en .
+            rdfs:comment "If it contains the shortening of a syllable regularly long"@en ;
+            rdfs:isDefinedBy "hasSystole"@en ,
+                             "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hiatusPart1
-:hiatusPart1 rdf:type owl:DatatypeProperty .
+:hiatusPart1 rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Word ;
+             rdfs:range xsd:string ;
+             rdfs:comment "First vowel affected in a hiatus phenomenon"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "hiatusPart1"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hiatusPart2
-:hiatusPart2 rdf:type owl:DatatypeProperty .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#incipit
-:incipit rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf owl:topDataProperty ;
-         rdfs:range xsd:string ;
-         <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-         <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-         rdfs:comment "The first line of the work"@en .
+:hiatusPart2 rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Word ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Second vowel affected in a hiatus phenomenon"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "hiatusPart2"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isDialepha
@@ -745,7 +733,9 @@ owl:topObjectProperty rdfs:domain owl:Thing .
             rdfs:domain :Syllable ;
             rdfs:range xsd:boolean ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime .
+            rdfs:comment "The current instance of Syllable together with the following one form a dialepha"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "isDialepha"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza
@@ -754,17 +744,29 @@ owl:topObjectProperty rdfs:domain owl:Thing .
                    rdfs:domain :Stanza ;
                    rdfs:range xsd:boolean ;
                    <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                   <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                   rdfs:comment "If Stanza is a metrical unit, then this should be “no”. Otherwise (e.g. a section, a lai, etc.) it should be set to “yes”"@en .
+                   rdfs:comment "If Stanza is a metrical unit, then this should be “no”. Otherwise (e.g. a section, a lai, etc.) it should be set to “yes”"@en ;
+                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                   rdfs:label "isNotMetricStanza"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain
+:isRefrain rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Line ;
+           rdfs:range xsd:boolean ;
+           rdfs:comment "Whether the line or group of lines is part of a refrain"@en ;
+           rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+           rdfs:label "isRefrain"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted
 :isRefrainOmitted rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Stanza ;
                   rdfs:range xsd:boolean ;
                   <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                  <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                  rdfs:comment "Whether the copy of the refrain was omitted"@en .
+                  rdfs:comment "Whether the copy of the refrain was omitted"@en ;
+                  rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                  rdfs:label "isRefrainOmitted"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStressed
@@ -773,219 +775,139 @@ owl:topObjectProperty rdfs:domain owl:Thing .
             rdfs:domain :Syllable ;
             rdfs:range xsd:boolean ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime .
+            rdfs:comment "Whether the syllable is stressed"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "isStressed"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma
 :lemma rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
-       rdfs:domain :Word ,
-                   [ rdf:type owl:Restriction ;
-                     owl:onProperty :lemma ;
-                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                     owl:onDataRange xsd:string
-                   ] ;
+       rdfs:domain :Word ;
        rdfs:range xsd:string ;
        <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-       rdfs:comment "Citation form, the particular form that is chosen by convention to represent the lexeme"@en .
+       rdfs:comment "Citation form, the particular form that is chosen by convention to represent the lexeme"@en ;
+       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+       rdfs:label "lemma"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber
 :lineNumber rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain [ rdf:type owl:Restriction ;
-                          owl:onProperty :lineNumber ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
-                        ] ;
-            rdfs:range xsd:string ;
+            rdfs:domain :Line ;
+            rdfs:range xsd:integer ;
             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-            <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-            rdfs:comment "Number of the verse" .
+            rdfs:comment "Number of the verse" ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "lineNumber"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation
 :morphologicalAnnotation rdf:type owl:DatatypeProperty ;
                          rdfs:subPropertyOf owl:topDataProperty ;
-                         rdfs:domain :Word ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :morphologicalAnnotation ;
-                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                       owl:onDataRange xsd:string
-                                     ] ;
+                         rdfs:domain :Word ;
                          rdfs:range xsd:string ;
                          <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                         <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                         rdfs:comment "Any type of morphological analysis (from POS to morpheme composition)"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType
-:nucleusType rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:domain :Syllable ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :nucleusType ;
-                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                           owl:onDataRange xsd:string
-                         ] ;
-             rdfs:range xsd:string ;
-             <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-             rdfs:comment "Type of syllabic nucleus (linguistic typology)"@en .
+                         rdfs:comment "Any type of morphological analysis (from POS to morpheme composition)"@en ;
+                         rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                         rdfs:label "morphologicalAnnotation"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset
 :onset rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
-       rdfs:domain :Syllable ,
-                   [ rdf:type owl:Restriction ;
-                     owl:onProperty :onset ;
-                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                     owl:onDataRange xsd:string
-                   ] ;
+       rdfs:domain :Syllable ;
        rdfs:range xsd:string ;
        <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-       rdfs:comment "Sound or sounds occurring before the nucleus, a consonant or consonant cluster"@en .
+       rdfs:comment "Sound or sounds occurring before the nucleus, a consonant or consonant cluster"@en ;
+       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+       rdfs:label "onset"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis
 :paraphrasis rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Stanza ;
              rdfs:range xsd:string ;
              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-             rdfs:comment "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en .
+             rdfs:comment "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "paraphrasis"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription
 :phoneticTranscription rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
-                       rdfs:domain [ rdf:type owl:Restriction ;
-                                     owl:onProperty :phoneticTranscription ;
-                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                     owl:onDataRange xsd:string
-                                   ] ;
+                       rdfs:domain :Word ;
                        rdfs:range xsd:string ;
                        <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                       rdfs:comment "Phonetic transcription"@en .
+                       rdfs:comment "Phonetic transcription"@en ;
+                       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                       rdfs:label "phoneticTranscription"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord
 :positionInWord rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain :Syllable ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :positionInWord ;
-                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                              owl:onDataRange xsd:string
-                            ] ;
+                rdfs:domain :Syllable ;
                 rdfs:range xsd:string ;
                 <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
                 rdfs:comment """Position of the syllable in the word 
-Eg.: 3/4 (= third syllable in a four-syllable word)"""@en .
+Eg.: 3/4 (= third syllable in a four-syllable word)"""@en ;
+                rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                rdfs:label "positionInWord"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#regularisedSpelling
 :regularisedSpelling rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
-                     rdfs:domain [ rdf:type owl:Class ;
-                                   owl:unionOf ( :Line
-                                                 :Word
-                                               )
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :regularisedSpelling ;
-                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                   owl:onDataRange xsd:string
-                                 ] ;
                      rdfs:range xsd:string ;
                      <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                     <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                     rdfs:comment "Contains a reading which has been regularised or normalised regarding its orthography"@en .
+                     rdfs:comment "Contains a reading which has been regularised or normalised regarding its orthography"@en ;
+                     rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-core"@en ;
+                     rdfs:label "regularisedSpelling"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense
 :sense rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
-       rdfs:domain :Word ,
-                   [ rdf:type owl:Restriction ;
-                     owl:onProperty :sense ;
-                     owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                     owl:onDataRange xsd:string
-                   ] ;
+       rdfs:domain :Word ;
        rdfs:range xsd:string ;
        <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-       <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-       rdfs:comment "One of the meanings of a word or phrase"@en .
+       rdfs:comment "One of the meanings of a word or phrase"@en ;
+       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+       rdfs:label "sense"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber
-:stanzaNumber rdf:type owl:DatatypeProperty .
+:stanzaNumber rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Stanza ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "Position of the stanza inside the composition"@en ;
+              rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+              rdfs:label "stanzaNumber"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation
 :translation rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:domain :Word ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :translation ;
-                           owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                           owl:onDataRange xsd:string
-                         ] ;
+             rdfs:domain :Word ;
              rdfs:range xsd:string ;
              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-             rdfs:comment "Translation of the word"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza
-:typeOfStanza rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:domain :Stanza ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :typeOfStanza ;
-                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                            owl:onDataRange :vc-typeOfStanza
-                          ] ;
-              rdfs:range :vc-typeOfStanza ;
-              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-              <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-              rdfs:comment "Type of stanza, but not in relation to its metrics. E.g. tornada, refrain"@en .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition
-:typeOfStanzaEdition rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf owl:topDataProperty ;
-                     rdfs:domain :Stanza ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :typeOfStanzaEdition ;
-                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                   owl:onDataRange :vc-typeOfStanzaEdition
-                                 ] ;
-                     rdfs:range :vc-typeOfStanzaEdition ;
-                     <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-                     <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-                     rdfs:comment """The type of the text provided in the Stanza 
-Eg.: Diplomatic edition, critical edition, translation"""@en .
+             rdfs:comment "Translation of the word"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+             rdfs:label "translation"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight
 :weight rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
-        rdfs:domain :Syllable ,
-                    [ rdf:type owl:Restriction ;
-                      owl:onProperty :weight ;
-                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                      owl:onDataRange xsd:string
-                    ] ;
+        rdfs:domain :Syllable ;
         rdfs:range xsd:string ;
         <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-        <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:39:21Z"^^xsd:dateTime ;
-        rdfs:comment "Pattern according to the number and/or duration of segments in the syllabic rime, that is, the nucleus and coda"@en .
+        rdfs:comment "Pattern according to the number and/or duration of segments in the syllabic rime, that is, the nucleus and coda"@en ;
+        rdfs:isDefinedBy "pdstruct:positionInWord max 1 xsd:string"@en ;
+        rdfs:label "weight"@en .
 
 
 #################################################################
@@ -996,48 +918,101 @@ Eg.: Diplomatic edition, critical edition, translation"""@en .
 <http://bakulf.github.io/raop/0.1#Word> rdf:type owl:Class .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LexicalUnit
-:LexicalUnit rdf:type owl:Class ;
-             rdfs:comment "A single element"@en .
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Place
+<http://postdata.linhd.uned.es/ontology/postdata-core#Place> rdf:type owl:Class .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> rdf:type owl:Class .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Enjambment
+:Enjambment rdf:type owl:Class ;
+            rdfs:comment "Enjambment class  that informs of the type and the grammatical elements that form it"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "Enjambment"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line
 :Line rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasSyllables ;
+                        owl:allValuesFrom :OrderedSyllableList
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :content ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :lineNumber ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :regularisedSpelling ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ;
       <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-      <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
       rdfs:comment """A unit of verse that usually ends in a visual or typographic break and generally characterized by its length and meter
 Eg.: “As armas e os barões assinalados” - from Os Lusíadas""" ;
+      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" ;
       rdfs:label "Line"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LineOrderedListItem
-:LineOrderedListItem rdf:type owl:Class ;
-                     rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LineItem
+:LineItem rdf:type owl:Class ;
+          rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> ;
+          rdfs:comment "An item in the lines list"@en ;
+          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+          rdfs:label "LineItem"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedListLine
-:OrderedListLine rdf:type owl:Class ;
-                 rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList
+:OrderedLineList rdf:type owl:Class ;
+                 rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> ;
+                 rdfs:comment "Ordered list of lines  of a redaction"@en ;
+                 rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                 rdfs:label "OrderedLineList"@en .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedListStanzas
-:OrderedListStanzas rdf:type owl:Class ;
-                    rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> .
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList
+:OrderedStanzaList rdf:type owl:Class ;
+                   rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> ;
+                   rdfs:comment "Ordered list of stanzas  of a redaction"@en ;
+                   rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+                   rdfs:label "OrderedStanzaList"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedSyllableList
+:OrderedSyllableList rdf:type owl:Class ;
+                     rdfs:subClassOf <http://purl.org/ontology/olo/core#OrderedList> .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation
 :Punctuation rdf:type owl:Class ;
-             rdfs:subClassOf :LexicalUnit ;
+             rdfs:subClassOf :Token ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :content ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ;
              <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-             <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
              rdfs:comment "Specific markings, signs and symbols that are used in and around sentences to give them structure and to allow for correct understanding and comprehension"@en ;
+             rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" ;
              rdfs:label "Punctuation"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza
 :Stanza rdf:type owl:Class ;
         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :incipit ;
+                          owl:onProperty :altStanzaNumber ;
+                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :content ;
                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:string
                         ] ,
@@ -1055,31 +1030,107 @@ Em perigos e guerras esforçados,
 Mais do que prometia a força humana,
 E entre gente remota edificaram
 Novo Reino, que tanto sublimaram;""" ;
+        rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
         rdfs:label "Stanza"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#StanzaItem
 :StanzaItem rdf:type owl:Class ;
-            rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> .
+            rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> ;
+            rdfs:comment "An item in the stanzas list"@en ;
+            rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+            rdfs:label "StanzaItem"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable
 :Syllable rdf:type owl:Class ;
-          rdfs:subClassOf <http://purl.org/linguistics/gold/Syllable> ;
+          rdfs:subClassOf <http://purl.org/linguistics/gold/Syllable> ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :coda ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :content ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasHiatus ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:boolean
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasSynizesis ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:boolean
+                          ] ;
           <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-          <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
           rdfs:comment """A linguistic analysis using the syllable as the unit of reference
 Eg.: The onset and coda of the rhyme vowel"""@en ;
+          rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" ;
           rdfs:label "Syllable"@en .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#SyllableItem
+:SyllableItem rdf:type owl:Class ;
+              rdfs:subClassOf <http://purl.org/ontology/olo/core#Slot> .
+
+
+###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token
+:Token rdf:type owl:Class ;
+       rdfs:comment "A lexical element"@en ;
+       rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en ;
+       rdfs:label "Token"@en .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word
 :Word rdf:type owl:Class ;
-      rdfs:subClassOf :LexicalUnit ;
+      rdfs:subClassOf <http://bakulf.github.io/raop/0.1#Word> ,
+                      :Token ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasSyllables ;
+                        owl:allValuesFrom :OrderedSyllableList
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :content ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasHiatus ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:boolean
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasSynizesis ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:boolean
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :lemma ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :morphologicalAnnotation ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :phoneticTranscription ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :regularisedSpelling ;
+                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ;
       <http://purl.org/dc/elements/1.1/creator> "mluisadiez" ;
-      <http://purl.org/dc/elements/1.1/date> "2018-06-16T18:37:24Z"^^xsd:dateTime ;
       rdfs:comment """A single distinct meaningful element of writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed
 Eg.: The word “life”"""@en ;
+      rdfs:isDefinedBy "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" ;
       rdfs:label "Word"@en .
 
 
@@ -1087,192 +1138,41 @@ Eg.: The word “life”"""@en ;
 <http://purl.org/linguistics/gold/Syllable> rdf:type owl:Class .
 
 
-###  http://www.europeana.eu/schemas/edm/Agent
-<http://www.europeana.eu/schemas/edm/Agent> rdf:type owl:Class .
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
 
 
 #################################################################
 #    Individuals
 #################################################################
 
-###  http://postdata.linhd.uned.es/ontology/core/resource/BibliographicSource1
-<http://postdata.linhd.uned.es/ontology/core/resource/BibliographicSource1> rdf:type owl:NamedIndividual ;
-                                                                            :hasCreator :Person_1 .
+###  http://postdata.linhd.uned.es/kos/enjambmentType
+<http://postdata.linhd.uned.es/kos/enjambmentType> rdf:type owl:NamedIndividual ,
+                                                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Cantigas
-:Cantigas rdf:type owl:NamedIndividual ;
-          :hasCreator :Person_1 .
+###  http://postdata.linhd.uned.es/kos/grammatical-category
+<http://postdata.linhd.uned.es/kos/grammatical-category> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Cantigas_de_Santa_Maria
-:Cantigas_de_Santa_Maria rdf:type owl:NamedIndividual .
+###  http://postdata.linhd.uned.es/kos/nucleusType
+<http://postdata.linhd.uned.es/kos/nucleusType> rdf:type owl:NamedIndividual ,
+                                                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Creator1
-:Creator1 rdf:type owl:NamedIndividual .
+###  http://postdata.linhd.uned.es/kos/stanzaEditionType
+<http://postdata.linhd.uned.es/kos/stanzaEditionType> rdf:type owl:NamedIndividual ,
+                                                               <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Facsimile1
-:Facsimile1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Facsimile2
-:Facsimile2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Facsimile3
-:Facsimile3 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP1
-:LP1 rdf:type owl:NamedIndividual ;
-     :phoneticTranscription "mais nos fadzsanta maRi.a" .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP13
-:LP13 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP2
-:LP2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP21
-:LP21 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP29
-:LP29 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP37
-:LP37 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LP5
-:LP5 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line1
-:Line1 rdf:type owl:NamedIndividual ,
-                :Line ;
-       :content "Mais nos faz Santa María" ;
-       :lineNumber 1 .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line13
-:Line13 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line21
-:Line21 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line29
-:Line29 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line5
-:Line5 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Location1
-:Location1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Location2
-:Location2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#MusicalNotation1
-:MusicalNotation1 rdf:type owl:NamedIndividual ;
-                  :editionNotes "E1:The word nos is repeated on this stave in the manuscript, but is not assigned another note or ligature. E2:See E4. E3:This is a cus- tos indicating the pitch of the note after the page break: these are commonplace in [To] but as far as I am aware this is the only one in [E]. By the way, all the custodes (pl.) in [To] have their stems down, so that’s how they are ren- dered here, even though this one has its stem up in [E]. E4:Compare this odd-looking liga- ture (for one syllable) with the pair of sepa- rate notes at E2 in the refrain. E5:This line appears very faint in the manuscript facsimile. E6:The word a is repeated at the start of this stave, but is not assigned a note or ligature." .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Paratext1
-:Paratext1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Performance1
-:Performance1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Performance2
-:Performance2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Performance3
-:Performance3 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Performance4
-:Performance4 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Performance5
-:Performance5 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Person_1
-:Person_1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#PrimarySource1
-:PrimarySource1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Redaction1
-:Redaction1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Rhyme1
-:Rhyme1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Rhyme2
-:Rhyme2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza1
-:Stanza1 rdf:type owl:NamedIndividual ,
-                  :Stanza ;
-         :hasFirstLine :Line5 ;
-         :nextStanza :Stanza2 ;
-         :isRefrainOmitted 1 .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza2
-:Stanza2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza3
-:Stanza3 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza4
-:Stanza4 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza5
-:Stanza5 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#WP1
-:WP1 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Witness1
-:Witness1 rdf:type owl:NamedIndividual ;
-          :hasMusicalNotation :MusicalNotation1 .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Witness2
-:Witness2 rdf:type owl:NamedIndividual .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Witness3
-:Witness3 rdf:type owl:NamedIndividual .
+###  http://postdata.linhd.uned.es/kos/stanzaType
+<http://postdata.linhd.uned.es/kos/stanzaType> rdf:type owl:NamedIndividual ,
+                                                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
 #################################################################
