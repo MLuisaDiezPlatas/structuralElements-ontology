@@ -85,7 +85,7 @@
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://postdata.linhd.uned.es/kos/enjambmentType"
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
@@ -94,7 +94,7 @@
   "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://postdata.linhd.uned.es/kos/stanzaType"
+    "@id" : "http://postdata.linhd.uned.es/kos/stanzaEdition-type"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
@@ -102,11 +102,11 @@
 }, {
   "@id" : "_:genid19",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://postdata.linhd.uned.es/kos/stanzaEditionType"
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedSyllableList"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllables"
   } ]
 }, {
   "@id" : "_:genid2",
@@ -121,11 +121,15 @@
 }, {
   "@id" : "_:genid20",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedSyllableList"
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllables"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
   "@id" : "_:genid21",
@@ -138,7 +142,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -151,7 +155,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#regularisedSpelling"
   } ]
 }, {
   "@id" : "_:genid23",
@@ -164,7 +168,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#regularisedSpelling"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
   "@id" : "_:genid24",
@@ -177,7 +181,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber"
   } ]
 }, {
   "@id" : "_:genid25",
@@ -190,7 +194,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
   "@id" : "_:genid26",
@@ -203,7 +207,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis"
   } ]
 }, {
   "@id" : "_:genid27",
@@ -216,7 +220,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda"
   } ]
 }, {
   "@id" : "_:genid28",
@@ -229,7 +233,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
   "@id" : "_:genid29",
@@ -239,10 +243,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasHiatus"
   } ]
 }, {
   "@id" : "_:genid30",
@@ -255,23 +259,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasHiatus"
-  } ]
-}, {
-  "@id" : "_:genid31",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSynizesis"
   } ]
 }, {
-  "@id" : "_:genid32",
+  "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedSyllableList"
@@ -280,7 +271,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllables"
   } ]
 }, {
-  "@id" : "_:genid33",
+  "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -293,7 +284,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
-  "@id" : "_:genid34",
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -306,7 +297,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasHiatus"
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -319,7 +310,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSynizesis"
   } ]
 }, {
-  "@id" : "_:genid36",
+  "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -332,7 +323,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma"
   } ]
 }, {
-  "@id" : "_:genid37",
+  "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -345,7 +336,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation"
   } ]
 }, {
-  "@id" : "_:genid38",
+  "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -358,7 +349,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription"
   } ]
 }, {
-  "@id" : "_:genid39",
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -1826,23 +1817,17 @@
     "@value" : "realises"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/enjambmentType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
-}, {
   "@id" : "http://postdata.linhd.uned.es/kos/grammatical-category",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/nucleusType",
+  "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/stanzaEditionType",
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/stanzaType",
+  "@id" : "http://postdata.linhd.uned.es/kos/stanzaEdition-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
-}, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
@@ -1909,8 +1894,6 @@
     "@value" : "pdstruct"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/POSTDATA-core"
-  }, {
     "@id" : "http://purl.org/ontology/olo/core#"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
@@ -1919,21 +1902,6 @@
   "http://www.w3.org/2003/06/sw-vocab-status/ns#license" : [ {
     "@language" : "en",
     "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ]
-}, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Enjambment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Enjambment class  that informs of the type and the grammatical elements that form it"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Enjambment"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line",
@@ -1952,13 +1920,13 @@
     "@value" : "Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid19"
+  }, {
     "@id" : "_:genid20"
   }, {
     "@id" : "_:genid21"
   }, {
     "@id" : "_:genid22"
-  }, {
-    "@id" : "_:genid23"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#LineItem",
@@ -2040,7 +2008,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   }, {
-    "@id" : "_:genid24"
+    "@id" : "_:genid23"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza",
@@ -2057,11 +2025,11 @@
     "@value" : "Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid24"
+  }, {
     "@id" : "_:genid25"
   }, {
     "@id" : "_:genid26"
-  }, {
-    "@id" : "_:genid27"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#StanzaItem",
@@ -2101,13 +2069,13 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.org/linguistics/gold/Syllable"
   }, {
+    "@id" : "_:genid27"
+  }, {
     "@id" : "_:genid28"
   }, {
     "@id" : "_:genid29"
   }, {
     "@id" : "_:genid30"
-  }, {
-    "@id" : "_:genid31"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#SyllableItem",
@@ -2152,6 +2120,8 @@
   }, {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   }, {
+    "@id" : "_:genid31"
+  }, {
     "@id" : "_:genid32"
   }, {
     "@id" : "_:genid33"
@@ -2165,8 +2135,6 @@
     "@id" : "_:genid37"
   }, {
     "@id" : "_:genid38"
-  }, {
-    "@id" : "_:genid39"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber",
@@ -2334,9 +2302,6 @@
     "@language" : "en",
     "@value" : "containsMentionToPlace"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo"
   } ]
@@ -2434,9 +2399,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstOfEnjambment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Enjambment"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
@@ -2586,9 +2548,6 @@
     "@language" : "en",
     "@value" : "This property points to the first group of lines (an instance of Stanza) which form the current element under analysis"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
@@ -2706,9 +2665,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLines",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
   } ]
@@ -2741,9 +2697,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "List of stanzas of a redaction"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -2976,9 +2929,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "isFirstStanza"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable",
@@ -3669,9 +3619,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondOfEnjambment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Enjambment"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
@@ -3777,13 +3724,8 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfEnjambment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Enjambment"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-  }, {
-    "@id" : "_:genid17"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza",
@@ -3806,7 +3748,7 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid18"
+    "@id" : "_:genid17"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition",
@@ -3829,7 +3771,7 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid19"
+    "@id" : "_:genid18"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight",
