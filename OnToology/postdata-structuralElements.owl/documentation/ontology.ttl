@@ -7,7 +7,8 @@
 @base <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> rdf:type owl:Ontology ;
-                                                                      owl:imports <http://purl.org/ontology/olo/core#> ;
+                                                                      owl:imports <http://postdata.linhd.uned.es/ontology/postdata-core> ,
+                                                                                  <http://purl.org/ontology/olo/core#> ;
                                                                       <http://purl.org/dc/elements/1.1/contributors> """Alvaro Pérez (LINHD_POSTDATA-UNED)
 https://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"""@en ,
                                                                                                                      """Bruno Sartini (Bolonia University)
@@ -701,14 +702,6 @@ Eg.: 3/4 (= third syllable in a four-syllable word)"""@en ;
 
 ###  http://bakulf.github.io/raop/0.1#Word
 <http://bakulf.github.io/raop/0.1#Word> rdf:type owl:Class .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#Agent
-<http://postdata.linhd.uned.es/ontology/postdata-core#Agent> rdf:type owl:Class .
-
-
-###  http://postdata.linhd.uned.es/ontology/postdata-core#Place
-<http://postdata.linhd.uned.es/ontology/postdata-core#Place> rdf:type owl:Class .
 
 
 ###  http://postdata.linhd.uned.es/ontology/postdata-core#Redaction

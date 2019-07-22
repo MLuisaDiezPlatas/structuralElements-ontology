@@ -1,4 +1,5 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements> <http://www.w3.org/2002/07/owl#imports> <http://postdata.linhd.uned.es/ontology/postdata-core> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/olo/core#> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"@en .
@@ -638,12 +639,6 @@ _:genid8 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es
 # 
 # http://bakulf.github.io/raop/0.1#Word
 <http://bakulf.github.io/raop/0.1#Word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-core#Agent
-<http://postdata.linhd.uned.es/ontology/postdata-core#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-core#Place
-<http://postdata.linhd.uned.es/ontology/postdata-core#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

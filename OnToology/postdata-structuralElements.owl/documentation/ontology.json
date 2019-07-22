@@ -1692,12 +1692,6 @@
   "@id" : "http://postdata.linhd.uned.es/kos/stanzaEdition-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -1768,6 +1762,8 @@
     "@value" : "pdstruct"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core"
+  }, {
     "@id" : "http://purl.org/ontology/olo/core#"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
