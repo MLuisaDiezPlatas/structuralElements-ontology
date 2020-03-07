@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "pdstruct:Line" "pdstruct:Punctuation" "pdstruct:OrderedStanzaList" "pdstruct:Word" "pdstruct:Stanza" "pdstruct:Token" "pdcore:Redaction" "pdstruct:Syllable" "http://bakulf.github.io/raop/0.1#Word" "pdstruct:OrderedLineList" "pdcore:Role" "frbroo:F17_Aggregation_Work" "pdcore:OrderedTextUnitList" "agentrole:Agent" "http://www.geonames.org/ontology#Feature" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Ensemble" "foaf:Person" "frbroo:F22_Self-Contained_Expression" "bibframe:Event" "edm:Event" "pdcore:TextUnit" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "schema:Place" "pdcore:Event" "pdcore:PoeticWork" "frbroo:F1_Work" "schema:Role" "olo:Slot" "olo:OrderedList" "owl:Thing" "objectrole:Role" "objectrole:Object" "postdata-dates:OpenedIntervalExpression" "postdata-dates:ClosedIntervalExpression" "postdata-dates:IntervalExpression" "postdata-dates:ExactDateExpression" "edm:TimeSpan" "postdata-dates:DateExpression" "postdata-dates:ApproximateDateExpression" "classification:Concept" ; /*classes style*/
+node [shape = rectangle, color="black"]; "pdstruct:Line" "pdstruct:Punctuation" "pdstruct:OrderedStanzaList" "pdstruct:Word" "pdstruct:Stanza" "pdstruct:Token" "pdstruct:Syllable" "pdcore:Redaction" "pdstruct:OrderedLineList" "pdcore:Role" "frbroo:F17_Aggregation_Work" "pdcore:OrderedTextUnitList" "agentrole:Agent" "http://www.geonames.org/ontology#Feature" "edm:Agent" "pdcore:Agent" "pdcore:CreatorRole" "pdcore:Person" "pdcore:Organisation" "edm:Place" "pdcore:Ensemble" "foaf:Person" "frbroo:F22_Self-Contained_Expression" "bibframe:Event" "edm:Event" "pdcore:TextUnit" "foaf:Organization" "edm:ProvidedCHO" "pdcore:Place" "schema:Place" "pdcore:Event" "pdcore:PoeticWork" "frbroo:F1_Work" "schema:Role" "olo:Slot" "olo:OrderedList" "owl:Thing" "objectrole:Role" "objectrole:Object" "postdata-dates:OpenedIntervalExpression" "postdata-dates:ClosedIntervalExpression" "postdata-dates:IntervalExpression" "postdata-dates:ExactDateExpression" "edm:TimeSpan" "postdata-dates:DateExpression" "postdata-dates:ApproximateDateExpression" "classification:Concept" ; /*classes style*/
 	"pdstruct:OrderedStanzaList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
 	"pdcore:Person" -> "foaf:Person" [ label = "rdfs:subClassOf" ];
 	"pdcore:Person" -> "pdcore:Agent" [ label = "rdfs:subClassOf" ];
@@ -10,14 +10,12 @@ node [shape = rectangle, color="black"]; "pdstruct:Line" "pdstruct:Punctuation" 
 	"pdstruct:Word" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Word" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Word" -> "pdstruct:Token" [ label = "rdfs:subClassOf" ];
-	"pdstruct:Word" -> "http://bakulf.github.io/raop/0.1#Word" [ label = "rdfs:subClassOf" ];
 	"pdcore:PoeticWork" -> "frbroo:F1_Work" [ label = "rdfs:subClassOf" ];
 	"pdcore:PoeticWork" -> "edm:ProvidedCHO" [ label = "rdfs:subClassOf" ];
 	"objectrole:Role" -> "classification:Concept" [ label = "rdfs:subClassOf" ];
 	"postdata-dates:ClosedIntervalExpression" -> "postdata-dates:IntervalExpression" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Stanza" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Stanza" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
-	"pdstruct:Stanza" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
 	"postdata-dates:ApproximateDateExpression" -> "postdata-dates:DateExpression" [ label = "rdfs:subClassOf" ];
 	"pdcore:Agent" -> "agentrole:Agent" [ label = "rdfs:subClassOf" ];
 	"pdcore:Agent" -> "edm:Agent" [ label = "rdfs:subClassOf" ];
@@ -36,11 +34,9 @@ node [shape = rectangle, color="black"]; "pdstruct:Line" "pdstruct:Punctuation" 
 	"pdcore:CreatorRole" -> "pdcore:Role" [ label = "rdfs:subClassOf" ];
 	"pdcore:Role" -> "objectrole:Role" [ label = "rdfs:subClassOf" ];
 	"pdcore:Role" -> "schema:Role" [ label = "rdfs:subClassOf" ];
-	"pdstruct:Syllable" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Syllable" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Line" -> "olo:Slot" [ label = "rdfs:subClassOf" ];
 	"pdstruct:Line" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
-	"pdstruct:Line" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
 	"pdcore:OrderedTextUnitList" -> "olo:OrderedList" [ label = "rdfs:subClassOf" ];
 	"postdata-dates:IntervalExpression" -> "edm:TimeSpan" [ label = "rdfs:subClassOf" ];
 	"postdata-dates:IntervalExpression" -> "postdata-dates:DateExpression" [ label = "rdfs:subClassOf" ];
