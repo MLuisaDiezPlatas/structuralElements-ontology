@@ -3,13 +3,23 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
+    }, {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
     }, {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
     } ]
   } ]
 }, {
-  "@id" : "_:genid11",
+  "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -21,7 +31,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid15",
+  "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -31,7 +41,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid18",
+  "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
@@ -40,7 +50,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid19",
+  "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
@@ -49,7 +59,7 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid20",
+  "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
@@ -58,16 +68,16 @@
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid21",
+  "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://postdata.linhd.uned.es/kos/stanzaEdition-type"
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
   } ]
 }, {
-  "@id" : "_:genid22",
+  "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -80,7 +90,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine"
   } ]
 }, {
-  "@id" : "_:genid23",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -93,7 +103,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem"
   } ]
 }, {
-  "@id" : "_:genid24",
+  "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -106,7 +116,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem"
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -119,7 +129,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
-  "@id" : "_:genid26",
+  "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -132,7 +142,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain"
   } ]
 }, {
-  "@id" : "_:genid27",
+  "@id" : "_:genid30",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -145,7 +155,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber"
   } ]
 }, {
-  "@id" : "_:genid28",
+  "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -158,7 +168,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid29",
+  "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -171,7 +181,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid30",
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -184,7 +194,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid31",
+  "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -197,45 +207,6 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber"
   } ]
 }, {
-  "@id" : "_:genid32",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
-  } ]
-}, {
-  "@id" : "_:genid33",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis"
-  } ]
-}, {
-  "@id" : "_:genid34",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ]
-}, {
   "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
@@ -243,10 +214,10 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
   } ]
 }, {
   "@id" : "_:genid36",
@@ -259,23 +230,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis"
   } ]
 }, {
   "@id" : "_:genid37",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm"
-  } ]
-}, {
-  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -288,7 +246,69 @@
     "@value" : "1"
   } ]
 }, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain"
+  } ]
+}, {
   "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
+    }, {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -301,19 +321,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma"
   } ]
 }, {
-  "@id" : "_:genid4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
-    }, {
-      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
-    }, {
-      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid40",
+  "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -326,7 +334,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation"
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid44",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -339,18 +347,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription"
   } ]
 }, {
-  "@id" : "_:genid8",
+  "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
       "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
     }, {
-      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
+    }, {
+      "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
     } ]
   } ]
-}, {
-  "@id" : "http://bakulf.github.io/raop/0.1#Word",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://creativecommons.org/ns#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -1761,20 +1768,20 @@
   "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/stanza-type",
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/stanzaEdition-type",
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza-type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid22"
+    "@id" : "_:genid25"
   }, {
-    "@id" : "_:genid23"
+    "@id" : "_:genid26"
   }, {
-    "@id" : "_:genid24"
+    "@id" : "_:genid27"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#notes",
@@ -1798,28 +1805,21 @@
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributors" : [ {
-    "@language" : "en",
     "@value" : "Alvaro Pérez (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"
   }, {
-    "@language" : "en",
     "@value" : "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"
   }, {
-    "@language" : "en",
     "@value" : "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"
   }, {
-    "@language" : "en",
     "@value" : "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@language" : "en",
     "@value" : "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X"
   }, {
-    "@language" : "en",
     "@value" : "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147"
   } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
-    "@language" : "en",
-    "@value" : "2019-07-12"
+    "@value" : "2020-02-22"
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1844,23 +1844,20 @@
     "@id" : "http://purl.org/ontology/olo/core#"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "V1.0"
+    "@value" : "V1.1"
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#license" : [ {
-    "@language" : "en",
     "@value" : "https://creativecommons.org/licenses/by/4.0/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "As a structure, a List can be modelled from two points of view:\n- An item (a subclass of old:slot) of the list of lines of the Redaction \n- A list of tokens"
-  }, {
     "@value" : "A unit of verse that usually ends in a visual or typographic break and generally characterized by its length and meter\nEg.: “As armas e os barões assinalados” - from Os Lusíadas"
+  }, {
+    "@language" : "en",
+    "@value" : "As a structure, a List can be modelled from two points of view:\n- An item (a subclass of olo:Slot) of the list of lines of the Redaction \n- A list of tokens"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
@@ -1874,13 +1871,11 @@
   }, {
     "@id" : "http://purl.org/ontology/olo/core#Slot"
   }, {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    "@id" : "_:genid28"
   }, {
-    "@id" : "_:genid25"
+    "@id" : "_:genid29"
   }, {
-    "@id" : "_:genid26"
-  }, {
-    "@id" : "_:genid27"
+    "@id" : "_:genid30"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList",
@@ -1890,12 +1885,11 @@
     "@value" : "Ordered list of lines  of a redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "OrderedLineList"
+    "@value" : "Ordered Line List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.org/ontology/olo/core#OrderedList"
@@ -1908,12 +1902,11 @@
     "@value" : "Ordered list of stanzas  of a redaction."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "OrderedStanzaList"
+    "@value" : "Ordered Stanza List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.org/ontology/olo/core#OrderedList"
@@ -1921,9 +1914,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Specific markings, signs and symbols that are used in and around sentences to give them structure and to allow for correct understanding and comprehension"
@@ -1938,7 +1928,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   }, {
-    "@id" : "_:genid28"
+    "@id" : "_:genid31"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza",
@@ -1947,10 +1937,10 @@
     "@language" : "en",
     "@value" : "As a structure, a Stanza can be modelled from two points of view:\n- An item (a subclass of old:slot) of the list of Stanzas of the Redaction \n- A list of lines"
   }, {
+    "@language" : "en",
     "@value" : "Group of lines. Usually, this grouping forms the basic recurring metrical unit of a poem, song or play\nEg.: As armas e os barões assinalados,\nQue da ocidental praia Lusitana,\nPor mares nunca de antes navegados,\nPassaram ainda além da Taprobana,\nEm perigos e guerras esforçados,\nMais do que prometia a força humana,\nE entre gente remota edificaram\nNovo Reino, que tanto sublimaram;"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -1962,29 +1952,25 @@
   }, {
     "@id" : "http://purl.org/ontology/olo/core#Slot"
   }, {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  }, {
-    "@id" : "_:genid29"
-  }, {
-    "@id" : "_:genid30"
-  }, {
-    "@id" : "_:genid31"
-  }, {
     "@id" : "_:genid32"
   }, {
     "@id" : "_:genid33"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "As a structure, a Syllable is an item (a subclass of old:slot) of a Word"
-  }, {
     "@value" : "A single unit of speech sound as written or spoken; specifically, a vowel preceded by zero to three consonants (“awl,” “bring,” “strand”), and followed by zero to four consonants (“too,” “brag,” “gloss,” “stings,” “sixths”).\nIt is the reference unit of a literary analysis, in some poetic tradicions\nEg.: The onset and coda of the rhyme vowel"
+  }, {
+    "@language" : "en",
+    "@value" : "As a structure, a Syllable is an item (a subclass of old:slot) of a Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
@@ -1996,13 +1982,11 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.org/ontology/olo/core#Slot"
   }, {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    "@id" : "_:genid37"
   }, {
-    "@id" : "_:genid34"
+    "@id" : "_:genid38"
   }, {
-    "@id" : "_:genid35"
-  }, {
-    "@id" : "_:genid36"
+    "@id" : "_:genid39"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token",
@@ -2012,7 +1996,6 @@
     "@value" : "A lexical element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -2022,9 +2005,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A single distinct meaningful element of writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed\nEg.: The word “life”"
@@ -2040,23 +2020,21 @@
     "@value" : "Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://bakulf.github.io/raop/0.1#Word"
-  }, {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   }, {
     "@id" : "http://purl.org/ontology/olo/core#OrderedList"
   }, {
     "@id" : "http://purl.org/ontology/olo/core#Slot"
   }, {
-    "@id" : "_:genid37"
-  }, {
-    "@id" : "_:genid38"
-  }, {
-    "@id" : "_:genid39"
-  }, {
     "@id" : "_:genid40"
   }, {
     "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber",
@@ -2072,12 +2050,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "altStanzaNumber"
+    "@value" : "alt Stanza Number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
@@ -2096,12 +2073,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "belongsToLine"
+    "@value" : "belongs To Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -2123,12 +2099,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "belongsToLineList"
+    "@value" : "belongs To Line List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
@@ -2138,6 +2113,26 @@
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Whether the line or group of lines is part of a refrain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "belongs To Refrain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza",
@@ -2150,12 +2145,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "belongsToStanza"
+    "@value" : "belongs To Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -2177,12 +2171,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "belongsToStanzaList"
+    "@value" : "belongs To Stanza List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
@@ -2204,12 +2197,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "belongsToWord"
+    "@value" : "belongs To Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
@@ -2223,18 +2215,15 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "Sound or sounds that follow the nucleus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2257,12 +2246,14 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "containsMentionTo"
+    "@value" : "contains Mention To"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent",
@@ -2271,13 +2262,15 @@
     "@language" : "en",
     "@value" : "Agent  that is mentioned on the line"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "containsMentionToAgent"
+    "@value" : "contains Mention To Agent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Agent"
@@ -2292,13 +2285,15 @@
     "@language" : "en",
     "@value" : "Place that is mentioned on the line"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "containsMentionToPlace"
+    "@value" : "contains Mention To Place"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Place"
@@ -2309,15 +2304,12 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "Full content of item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2340,12 +2332,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "firstHemistich"
+    "@value" : "first Hemistich"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -2353,31 +2344,25 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "This property points to the first line (an instance of Line) which form the current element under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasFirstLine"
+    "@value" : "has First Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza",
@@ -2387,40 +2372,47 @@
     "@value" : "This property points to the first group of lines (an instance of Stanza) which form the current element under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid1"
+    "@id" : "_:genid4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasFirstStanza"
+    "@value" : "has First Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property points to the first Syllable which form the current element under analysis"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has First Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to one of the words (an instance of Punctuation or Word) which form the current element under analysis"
@@ -2429,12 +2421,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasFirstToken"
+    "@value" : "has First Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
@@ -2443,7 +2434,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine",
@@ -2453,11 +2444,14 @@
     "@value" : "This property points to the last line (an instance of Line) which form the current element under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid4"
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLastLine"
+    "@value" : "has Last Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -2466,7 +2460,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza",
@@ -2476,15 +2470,14 @@
     "@value" : "This property points to the last Stanza  which form the current element under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid8"
+    "@id" : "_:genid11"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLastStanza"
+    "@value" : "has Last Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -2493,7 +2486,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable",
@@ -2506,12 +2499,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLastSyllable"
+    "@value" : "has Last Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
@@ -2520,7 +2512,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken",
@@ -2533,12 +2525,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLastToken"
+    "@value" : "has Last Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
@@ -2547,7 +2538,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine",
@@ -2560,12 +2551,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLine"
+    "@value" : "has Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -2584,12 +2574,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLineItem"
+    "@value" : "has Line Item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -2602,24 +2591,23 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This property refers to the list of lines(the poem structured in lines) that the redaction contains to"
+    "@value" : "This property refers to the list of lines (the poem structured in lines) that the redaction contains to"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasLineList"
+    "@value" : "has Line List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem",
@@ -2632,12 +2620,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasStanzaItem"
+    "@value" : "has Stanza Item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -2656,18 +2643,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasStanzaList"
+    "@value" : "has Stanza List"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable",
@@ -2676,15 +2662,14 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Syllable of a Word considered as list"
   }, {
     "@language" : "en",
-    "@value" : "hasSyllable"
+    "@value" : "has Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
@@ -2703,18 +2688,43 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "hasToken"
+    "@value" : "has Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://purl.org/ontology/olo/core#slot"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property points to its lemma (an instance of Word)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inflected Form"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf",
@@ -2727,39 +2737,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isCallOf"
+    "@value" : "is Call Of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "This property points to a following Word (echo) that that rhymes with the current instance of Word"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "isEchoOf"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ]
-}, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2769,18 +2757,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isFirstLine"
+    "@value" : "is First Line of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2790,18 +2777,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isFirstStanza"
+    "@value" : "is First Stanza of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2811,64 +2797,37 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isFirstSyllable"
+    "@value" : "is First Syllable of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "This property points to an instance of Line of which the current item under analysis is its first Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isFirstToken"
+    "@value" : "is First Token of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "This property points to its lemma (an instance of Word)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "inflectedForm"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma"
-  } ]
-}, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2878,21 +2837,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLastLine"
+    "@value" : "is Last Line of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid11"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+    "@id" : "_:genid14"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2902,21 +2857,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLastStanza"
+    "@value" : "is Last Stanza of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid15"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+    "@id" : "_:genid18"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2926,21 +2877,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLastSyllable"
+    "@value" : "is Last Syllable of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2950,18 +2897,14 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLastToken"
+    "@value" : "is Last Token of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma",
@@ -2974,18 +2917,17 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLemma"
+    "@value" : "is Lemma of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2995,12 +2937,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isLineListOfRedaction"
+    "@value" : "is Line List of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -3008,9 +2949,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "If Stanza is a metrical unit, then this should be “no”. Otherwise (e.g. a section, a lai, etc.) it should be set to “yes”"
@@ -3019,12 +2957,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isNotMetricStanza"
+    "@value" : "is Not Metric Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -3040,15 +2977,14 @@
     "@value" : "Whether the line or group of lines is part of a refrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isRefrain"
+    "@value" : "is Refrain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -3056,9 +2992,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Whether the copy of the refrain was omitted"
@@ -3067,12 +3000,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isRefrainOmitted"
+    "@value" : "is Refrain Omitted"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -3081,7 +3013,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction",
+  "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -3091,12 +3023,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isStanzaListOfRedaction"
+    "@value" : "is Stanza List of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
@@ -3104,9 +3035,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to another instance of Stanza which belongs to another work or ensemble but that has the same contents as the current item at hand"
@@ -3115,12 +3043,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isTheSameAs"
+    "@value" : "is the Same As"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -3131,9 +3058,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Citation form, the particular form that is chosen by convention to represent the lexeme"
@@ -3142,8 +3066,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3168,12 +3091,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "lineNumber"
+    "@value" : "line Number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
@@ -3184,9 +3106,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Any type of morphological analysis (from POS to morpheme composition)"
@@ -3195,12 +3114,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "morphologicalAnnotation"
+    "@value" : "morphological Annotation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -3219,12 +3137,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "nextLine"
+    "@value" : "next Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -3238,9 +3155,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to  Stanza that follows the Stanza under analysis in a OrderedStanzaList"
@@ -3249,12 +3163,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "nextStanza"
+    "@value" : "next Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -3276,12 +3189,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "nextSyllable"
+    "@value" : "next Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
@@ -3295,26 +3207,19 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
-  "http://purl.org/dc/elements/1.1/date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2018-06-16T20:30:43Z"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property points to a Token that follows the current Token under analysis in a Line"
-  }, {
-    "@language" : "en",
-    "@value" : "This property points to an instance of Word that follows the current item under analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "nextToken"
+    "@value" : "next Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
@@ -3336,24 +3241,20 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "nucleusType"
+    "@value" : "nucleus Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid18"
+    "@id" : "_:genid21"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sound or sounds occurring before the nucleus, a consonant or consonant cluster"
@@ -3362,8 +3263,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3378,9 +3278,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"
@@ -3389,8 +3286,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3413,17 +3309,16 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "partOfSpeech"
+    "@value" : "part Of Speech"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid19"
+    "@id" : "_:genid22"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -3431,9 +3326,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Phonetic transcription"
@@ -3442,12 +3334,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "phoneticTranscription"
+    "@value" : "phonetic Transcription"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -3458,9 +3349,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Position of the syllable in the word \nEg.: 3/4 (= third syllable in a four-syllable word)"
@@ -3469,12 +3357,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "positionInWord"
+    "@value" : "position In Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -3493,12 +3380,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "previousLine"
+    "@value" : "previous Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
@@ -3517,12 +3403,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "previousStanza"
+    "@value" : "previous Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
@@ -3541,12 +3426,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "previousSyllable"
+    "@value" : "previous Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
@@ -3564,12 +3448,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "previousToken"
+    "@value" : "previous Token"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token"
@@ -3581,16 +3464,17 @@
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "This property points to the first division of the line (an instance of Line), such as the second hemistich"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "secondHemistich"
+    "@value" : "second Hemistich"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -3598,9 +3482,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "One of the meanings of a word or phrase"
@@ -3609,8 +3490,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3627,18 +3507,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Position of the stanza inside the composition"
+    "@value" : "Position of the stanza inside the composition. When the stanza number is omitted, it means that the stanza is a refrain. \nThis occurs in poems that are songs as for example, in the Cantigas de Santa Maria by http://www.cantigasdesantamaria.com/csm/3, specially prepared for singers and instrumentalists.\nThe issues related to the musical aspects will be dealt with in the music ontology of postdata"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "stanzaNumber"
+    "@value" : "stanza Number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
@@ -3649,9 +3528,6 @@
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Translation of the word"
@@ -3660,8 +3536,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3684,17 +3559,16 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "typeOfStanza"
+    "@value" : "type Of Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid20"
+    "@id" : "_:genid23"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition",
@@ -3707,24 +3581,20 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "typeOfStanzaEdition"
+    "@value" : "type Of Stanza Edition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
   }, {
-    "@id" : "_:genid21"
+    "@id" : "_:genid24"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "mluisadiez"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Pattern according to the number and/or duration of segments in the syllabic rime, that is, the nucleus and coda"
@@ -3733,8 +3603,7 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "pdstruct:positionInWord max 1 xsd:string"
+    "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3757,12 +3626,11 @@
     "@id" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
     "@value" : "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "wordNumber"
+    "@value" : "word Number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#positiveInteger"

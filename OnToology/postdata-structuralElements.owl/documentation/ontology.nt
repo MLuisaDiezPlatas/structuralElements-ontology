@@ -1,20 +1,20 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2002/07/owl#imports> <http://postdata.linhd.uned.es/ontology/postdata-core> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/olo/core#> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/date> "2019-07-12"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Alvaro Pérez (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Bruno Sartini (Bolonia University)\nhttps://orcid.org/0000-0002-9152-4402" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/contributors> "Oscar Corcho (Universidad Politécnica de Madrid)\nhttp://orcid.org/0000-0002-9260-0753" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/creator> "Helena Bermúdez Sabel \nhttps://orcid.org/0000-0001-7782-206X" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/creator> "Mª Luisa Díez Platas \nhttps://orcid.org/0000-0002-9416-3147" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/date> "2020-02-22" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/description> "This ontology module contains classes and properties that provide information about the structure of a redaction. It models the structural elements from lexical level like lexical units, for example, word, to more complexity level as line or stanza."@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/elements/1.1/title> "postdata-structural ontology"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/terms/publisher> "POSTDATA Project\n\n“This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\nPrincipal Investigator. Elena González Blanco -- https://orcid.org/0000-0002-0448-1812\nTechnical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/dc/terms/publisher> "POSTDATA Project" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pdstruct" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2002/07/owl#versionInfo> "V1.0" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2003/06/sw-vocab-status/ns#license> "https://creativecommons.org/licenses/by/4.0/"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2002/07/owl#versionInfo> "V1.1" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#> <http://www.w3.org/2003/06/sw-vocab-status/ns#license> "https://creativecommons.org/licenses/by/4.0/" .
 # 
 # 
 # #################################################################
@@ -67,8 +67,8 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Line (viewed as a list of tokens) the token belongs to."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToLine"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Line"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -77,8 +77,8 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the OrderedLineList , associated with a Redaction; the Line belongs to."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToLineList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Line List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -87,8 +87,8 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Stanza (viewed as a list of lines) theLine belongs to."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -97,8 +97,8 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the OrderedStanzaList , associated with a Redaction; the Stanza belongs to."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToStanzaList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Stanza List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -107,134 +107,146 @@
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Word (viewed as a list of syllables) the Syllable belongs to."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToWord"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Word"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent or Place that is mentioned on the line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#label> "containsMentionTo"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> <http://www.w3.org/2000/01/rdf-schema#label> "contains Mention To"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Agent> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent  that is mentioned on the line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#label> "containsMentionToAgent"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent> <http://www.w3.org/2000/01/rdf-schema#label> "contains Mention To Agent"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Place> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Place that is mentioned on the line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#label> "containsMentionToPlace"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace> <http://www.w3.org/2000/01/rdf-schema#label> "contains Mention To Place"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first line (an instance of Line) which form the current element under analysis" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#label> "hasFirstLine"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first line (an instance of Line) which form the current element under analysis"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> <http://www.w3.org/2000/01/rdf-schema#label> "has First Line"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first group of lines (an instance of Stanza) which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#label> "hasFirstStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza> <http://www.w3.org/2000/01/rdf-schema#label> "has First Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first Syllable which form the current element under analysis"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "has First Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the words (an instance of Punctuation or Word) which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#label> "hasFirstToken"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken> <http://www.w3.org/2000/01/rdf-schema#label> "has First Token"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the last line (an instance of Line) which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#label> "hasLastLine"@en .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the last line (an instance of Line) which form the current element under analysis"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> <http://www.w3.org/2000/01/rdf-schema#label> "has Last Line"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the last Stanza  which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#label> "hasLastStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza> <http://www.w3.org/2000/01/rdf-schema#label> "has Last Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the last Syllable which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "hasLastSyllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "has Last Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the last Token  which form the current element under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#label> "hasLastToken"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken> <http://www.w3.org/2000/01/rdf-schema#label> "has Last Token"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -242,8 +254,8 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#comment> "Line of a Stanza considered as list"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#label> "hasLine"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine> <http://www.w3.org/2000/01/rdf-schema#label> "has Line"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -251,17 +263,17 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Line of a OrderedLineList associated with a Redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#label> "hasLineItem"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> <http://www.w3.org/2000/01/rdf-schema#label> "has Line Item"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the list of lines(the poem structured in lines) that the redaction contains to"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#label> "hasLineList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the list of lines (the poem structured in lines) that the redaction contains to"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList> <http://www.w3.org/2000/01/rdf-schema#label> "has Line List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -269,26 +281,26 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Stanza of an OrderedStanzaList associated with a Redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#label> "hasStanzaItem"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> <http://www.w3.org/2000/01/rdf-schema#label> "has Stanza Item"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the list of stanzas (the poem structured in stanzas) that the redaction contains to"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "hasStanzaList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "has Stanza List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/olo/core#slot> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "Syllable of a Word considered as list"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "hasSyllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "has Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -296,155 +308,142 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#comment> "Token of a Line considered as list"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#label> "hasToken"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken> <http://www.w3.org/2000/01/rdf-schema#label> "has Token"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to its lemma (an instance of Word)"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> <http://www.w3.org/2000/01/rdf-schema#label> "inflected Form"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a previous Word (call) that rhymes with the current instance of Word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#label> "isCallOf"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Call Of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a following Word (echo) that that rhymes with the current instance of Word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf> <http://www.w3.org/2000/01/rdf-schema#label> "isEchoOf"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the group of lines (an instance of Stanza or an instance of OrderedLineList) of which the current item under analysis is its first line"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf> <http://www.w3.org/2000/01/rdf-schema#label> "is First Line of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the group of lines (an instance of Stanza or an instance of OrderedLineList) of which the current item under analysis is its first line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine> <http://www.w3.org/2000/01/rdf-schema#label> "isFirstLine"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the text (an instance of OrderedStanzaList) of which the current item under analysis is its first line grouping"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf> <http://www.w3.org/2000/01/rdf-schema#label> "is First Stanza of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the text (an instance of OrderedStanzaList) of which the current item under analysis is its first line grouping"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza> <http://www.w3.org/2000/01/rdf-schema#label> "isFirstStanza"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Word of which the current item under analysis is its first Syllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf> <http://www.w3.org/2000/01/rdf-schema#label> "is First Syllable of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Word of which the current item under analysis is its first Syllable"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "isFirstSyllable"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Line of which the current item under analysis is its first Token"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf> <http://www.w3.org/2000/01/rdf-schema#label> "is First Token of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Line of which the current item under analysis is its first Token" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken> <http://www.w3.org/2000/01/rdf-schema#label> "isFirstToken"@en .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to its lemma (an instance of Word)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> <http://www.w3.org/2000/01/rdf-schema#label> "inflectedForm"@en .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#range> _:genid11 .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Stanza or OrderedLineList of which the current item under analysis is its last Line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine> <http://www.w3.org/2000/01/rdf-schema#label> "isLastLine"@en .
-# 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#range> _:genid15 .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/2000/01/rdf-schema#range> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to OrderedStanzaList of which the current item under analysis is its last Stanza"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza> <http://www.w3.org/2000/01/rdf-schema#label> "isLastStanza"@en .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Stanza or OrderedLineList of which the current item under analysis is its last Line"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Last Line of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Word of which the current item under analysis is its last Syllable"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "isLastSyllable"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid18 <http://www.w3.org/2002/07/owl#unionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to OrderedStanzaList of which the current item under analysis is its last Stanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Last Stanza of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Line of which the current item under analysis is its last Token"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken> <http://www.w3.org/2000/01/rdf-schema#label> "isLastToken"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Word of which the current item under analysis is its last Syllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Last Syllable of"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to Line of which the current item under analysis is its last Token"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Last Token of"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to one of the inflected forms (an instance of Word) of the current headword (the Word at hand)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#label> "isLemma"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma> <http://www.w3.org/2000/01/rdf-schema#label> "is Lemma of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Redaction that OrderedLineList belongs to"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#label> "isLineListOfRedaction"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Redaction that OrderedLineList belongs to"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Line List of"@en .
 # 
-# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Redaction that OrderedStanzaList belongs to"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction> <http://www.w3.org/2000/01/rdf-schema#label> "isStanzaListOfRedaction"@en .
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the Redaction that OrderedStanzaList belongs to"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf> <http://www.w3.org/2000/01/rdf-schema#label> "is Stanza List of"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to another instance of Stanza which belongs to another work or ensemble but that has the same contents as the current item at hand"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#label> "isTheSameAs"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs> <http://www.w3.org/2000/01/rdf-schema#label> "is the Same As"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -453,8 +452,8 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to next Line of the Line under analysis, in a OrderedLineList or in a Stanza"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#label> "nextLine"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine> <http://www.w3.org/2000/01/rdf-schema#label> "next Line"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -462,10 +461,9 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to  Stanza that follows the Stanza under analysis in a OrderedStanzaList"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#label> "nextStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza> <http://www.w3.org/2000/01/rdf-schema#label> "next Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -474,8 +472,8 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the Syllale that follows the Syllable under analysis in a Word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "nextSyllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "next Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -483,36 +481,34 @@ _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2002/07/owl#inverseOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://purl.org/dc/elements/1.1/date> "2018-06-16T20:30:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to a Token that follows the current Token under analysis in a Line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to an instance of Word that follows the current item under analysis"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#label> "nextToken"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken> <http://www.w3.org/2000/01/rdf-schema#label> "next Token"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid18 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/nucleus-type> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/nucleus-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of syllabic nucleus (linguistic typology)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#label> "nucleusType"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType> <http://www.w3.org/2000/01/rdf-schema#label> "nucleus Type"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#range> _:genid19 .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/part-of-speech> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#range> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid22 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/part-of-speech> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#comment> "A category of words (or, more generally, of lexical items) that have similar grammatical properties. \nCommonly listed  parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, interjection, and sometimes numeral, article, or determiner."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements/"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#label> "partOfSpeech"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech> <http://www.w3.org/2000/01/rdf-schema#label> "part Of Speech"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -520,8 +516,8 @@ _:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the previous item of a list that contains an instance of Line"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#label> "previousLine"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine> <http://www.w3.org/2000/01/rdf-schema#label> "previous Line"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -529,8 +525,8 @@ _:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to previous Stanza of the Stanza under analysis, in a OrderedLineList or in a Stanza"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#label> "previousStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza> <http://www.w3.org/2000/01/rdf-schema#label> "previous Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -538,8 +534,8 @@ _:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to previous Syllable of the Syllable under analysis, in a Word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "previousSyllable"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable> <http://www.w3.org/2000/01/rdf-schema#label> "previous Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -547,32 +543,32 @@ _:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#range> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to previous Token of the Token under analysis, in a Line" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#label> "previousToken"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken> <http://www.w3.org/2000/01/rdf-schema#label> "previous Token"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid20 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/stanza-type> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#range> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/stanza-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of stanza, but not in relation to its metrics. E.g. tornada, refrain"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza> <http://www.w3.org/2000/01/rdf-schema#label> "type Of Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#range> _:genid21 .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/stanzaEdition-type> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#range> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid24 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.es/kos/stanza-edition-type> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the text provided in the Stanza \nEg.: Diplomatic edition, critical edition, translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfStanzaEdition"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition> <http://www.w3.org/2000/01/rdf-schema#label> "type Of Stanza Edition"@en .
 # 
 # http://www.w3.org/2002/07/owl#topObjectProperty
 <http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
@@ -603,26 +599,32 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of the stanza inside the composition when a different ordering is possible"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#label> "altStanzaNumber"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> <http://www.w3.org/2000/01/rdf-schema#label> "alt Stanza Number"@en .
+# 
+# http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the line or group of lines is part of a refrain"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain> <http://www.w3.org/2000/01/rdf-schema#label> "belongs To Refrain"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound or sounds that follow the nucleus" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound or sounds that follow the nucleus"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#coda> <http://www.w3.org/2000/01/rdf-schema#label> "coda"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#comment> "Full content of item" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#comment> "Full content of item"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> <http://www.w3.org/2000/01/rdf-schema#label> "content"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich
@@ -630,45 +632,42 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first division of the line (an instance of Line), such as the first hemistich"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#label> "firstHemistich"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich> <http://www.w3.org/2000/01/rdf-schema#label> "first Hemistich"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#comment> "If Stanza is a metrical unit, then this should be “no”. Otherwise (e.g. a section, a lai, etc.) it should be set to “yes”"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#label> "isNotMetricStanza"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza> <http://www.w3.org/2000/01/rdf-schema#label> "is Not Metric Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the line or group of lines is part of a refrain"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#label> "isRefrain"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> <http://www.w3.org/2000/01/rdf-schema#label> "is Refrain"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the copy of the refrain was omitted"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#label> "isRefrainOmitted"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted> <http://www.w3.org/2000/01/rdf-schema#label> "is Refrain Omitted"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#comment> "Citation form, the particular form that is chosen by convention to represent the lexeme"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> <http://www.w3.org/2000/01/rdf-schema#label> "lemma"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber
@@ -678,27 +677,25 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of the verse" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lineNumber"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> <http://www.w3.org/2000/01/rdf-schema#label> "line Number"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Any type of morphological analysis (from POS to morpheme composition)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "morphologicalAnnotation"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "morphological Annotation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#comment> "Sound or sounds occurring before the nucleus, a consonant or consonant cluster"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#onset> <http://www.w3.org/2000/01/rdf-schema#label> "onset"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis
@@ -706,9 +703,8 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#comment> "The recasting of the contents in words different from that originally used, whether in the same language or in a translation"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> <http://www.w3.org/2000/01/rdf-schema#label> "paraphrasis"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription
@@ -716,37 +712,34 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#comment> "Phonetic transcription"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#label> "phoneticTranscription"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> <http://www.w3.org/2000/01/rdf-schema#label> "phonetic Transcription"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of the syllable in the word \nEg.: 3/4 (= third syllable in a four-syllable word)"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#label> "positionInWord"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord> <http://www.w3.org/2000/01/rdf-schema#label> "position In Word"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first division of the line (an instance of Line), such as the second hemistich" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#label> "secondHemistich" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#comment> "This property points to the first division of the line (an instance of Line), such as the second hemistich"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich> <http://www.w3.org/2000/01/rdf-schema#label> "second Hemistich" .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the meanings of a word or phrase"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#sense> <http://www.w3.org/2000/01/rdf-schema#label> "sense"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber
@@ -754,18 +747,17 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/olo/core#index> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of the stanza inside the composition"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#label> "stanzaNumber"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of the stanza inside the composition. When the stanza number is omitted, it means that the stanza is a refrain. \nThis occurs in poems that are songs as for example, in the Cantigas de Santa Maria by http://www.cantigasdesantamaria.com/csm/3, specially prepared for singers and instrumentalists.\nThe issues related to the musical aspects will be dealt with in the music ontology of postdata"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber> <http://www.w3.org/2000/01/rdf-schema#label> "stanza Number"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#comment> "Translation of the word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight
@@ -773,9 +765,8 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Pattern according to the number and/or duration of segments in the syllabic rime, that is, the nucleus and coda"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "pdstruct:positionInWord max 1 xsd:string"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber
@@ -784,8 +775,8 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of the word within the line to which it belongs"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#label> "wordNumber"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber> <http://www.w3.org/2000/01/rdf-schema#label> "word Number"@en .
 # 
 # 
 # 
@@ -796,50 +787,45 @@ _:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://postdata.linhd.uned.e
 # #################################################################
 # 
 # 
-# http://bakulf.github.io/raop/0.1#Word
-<http://bakulf.github.io/raop/0.1#Word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # http://postdata.linhd.uned.es/ontology/postdata-core#Redaction
 <http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> .
-_:genid22 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid22 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> .
-_:genid23 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid23 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
-<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> .
-_:genid24 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> .
+_:genid25 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem> .
+_:genid26 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> .
+<http://postdata.linhd.uned.es/ontology/postdata-core#Redaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem> .
+_:genid27 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#Slot> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
-_:genid25 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid25 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> .
-_:genid26 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid26 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> .
-_:genid27 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid27 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#comment> "As a structure, a List can be modelled from two points of view:\n- An item (a subclass of old:slot) of the list of lines of the Redaction \n- A list of tokens"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of verse that usually ends in a visual or typographic break and generally characterized by its length and meter\nEg.: “As armas e os barões assinalados” - from Os Lusíadas" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
+_:genid28 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> .
+_:genid29 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> .
+_:genid30 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of verse that usually ends in a visual or typographic break and generally characterized by its length and meter\nEg.: “As armas e os barões assinalados” - from Os Lusíadas"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#comment> "As a structure, a List can be modelled from two points of view:\n- An item (a subclass of olo:Slot) of the list of lines of the Redaction \n- A list of tokens"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> <http://www.w3.org/2000/01/rdf-schema#label> "Line"@en .
 # 
@@ -847,25 +833,24 @@ _:genid27 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of lines  of a redaction"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#label> "OrderedLineList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered Line List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered list of stanzas  of a redaction."@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "OrderedStanzaList"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered Stanza List"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
-_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
+_:genid31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid31 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific markings, signs and symbols that are used in and around sentences to give them structure and to allow for correct understanding and comprehension"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation> <http://www.w3.org/2000/01/rdf-schema#label> "Punctuation"@en .
@@ -874,100 +859,95 @@ _:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#Slot> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> .
-_:genid29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid29 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> .
-_:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid30 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> .
-_:genid31 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid31 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
-_:genid32 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid32 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine> .
+_:genid32 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> .
-_:genid33 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid33 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine> .
+_:genid33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Line> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber> .
+_:genid34 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
+_:genid35 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid35 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#paraphrasis> .
+_:genid36 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#comment> "As a structure, a Stanza can be modelled from two points of view:\n- An item (a subclass of old:slot) of the list of Stanzas of the Redaction \n- A list of lines"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#comment> "Group of lines. Usually, this grouping forms the basic recurring metrical unit of a poem, song or play\nEg.: As armas e os barões assinalados,\nQue da ocidental praia Lusitana,\nPor mares nunca de antes navegados,\nPassaram ainda além da Taprobana,\nEm perigos e guerras esforçados,\nMais do que prometia a força humana,\nE entre gente remota edificaram\nNovo Reino, que tanto sublimaram;" .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#comment> "Group of lines. Usually, this grouping forms the basic recurring metrical unit of a poem, song or play\nEg.: As armas e os barões assinalados,\nQue da ocidental praia Lusitana,\nPor mares nunca de antes navegados,\nPassaram ainda além da Taprobana,\nEm perigos e guerras esforçados,\nMais do que prometia a força humana,\nE entre gente remota edificaram\nNovo Reino, que tanto sublimaram;"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza> <http://www.w3.org/2000/01/rdf-schema#label> "Stanza"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#Slot> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
-_:genid34 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> .
-_:genid35 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid35 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> .
-_:genid36 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
+_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain> .
+_:genid38 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber> .
+_:genid39 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid39 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#comment> "A single unit of speech sound as written or spoken; specifically, a vowel preceded by zero to three consonants (“awl,” “bring,” “strand”), and followed by zero to four consonants (“too,” “brag,” “gloss,” “stings,” “sixths”).\nIt is the reference unit of a literary analysis, in some poetic tradicions\nEg.: The onset and coda of the rhyme vowel"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#comment> "As a structure, a Syllable is an item (a subclass of old:slot) of a Word"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#comment> "A single unit of speech sound as written or spoken; specifically, a vowel preceded by zero to three consonants (“awl,” “bring,” “strand”), and followed by zero to four consonants (“too,” “brag,” “gloss,” “stings,” “sixths”).\nIt is the reference unit of a literary analysis, in some poetic tradicions\nEg.: The onset and coda of the rhyme vowel" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Syllable> <http://www.w3.org/2000/01/rdf-schema#label> "Syllable"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> <http://www.w3.org/2000/01/rdf-schema#comment> "A lexical element"@en .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements"@en .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> <http://www.w3.org/2000/01/rdf-schema#label> "Token"@en .
 # 
 # http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bakulf.github.io/raop/0.1#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Token> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#OrderedList> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/olo/core#Slot> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm> .
-_:genid37 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid37 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
-_:genid38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> .
-_:genid39 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid39 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm> .
 _:genid40 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid40 <http://www.w3.org/2002/07/owl#onClass> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> .
-_:genid41 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#content> .
+_:genid41 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid41 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://purl.org/dc/elements/1.1/creator> "mluisadiez" .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lemma> .
+_:genid42 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid42 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation> .
+_:genid43 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription> .
+_:genid44 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#comment> "A single distinct meaningful element of writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed\nEg.: The word “life”"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#comment> "As a structure, a Word can be modelled from two points of view:\n- An item (a subclass of old:slot) of the Line \n- A list of Syllables"@en .
 <http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Word> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://postdata.linhd.uned.es/ontology/postdata-structuralElements" .
@@ -999,13 +979,13 @@ _:genid41 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XM
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 # 
+# http://postdata.linhd.uned.es/kos/stanza-edition-type
+<http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+# 
 # http://postdata.linhd.uned.es/kos/stanza-type
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-# 
-# http://postdata.linhd.uned.es/kos/stanzaEdition-type
-<http://postdata.linhd.uned.es/kos/stanzaEdition-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://postdata.linhd.uned.es/kos/stanzaEdition-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 # 
 # 
 # 

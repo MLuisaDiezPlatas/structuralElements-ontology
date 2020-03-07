@@ -1,6 +1,4 @@
-<html><h2 id="overv" class="list">postdata-structuralElements ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<p> The diagram below describe the main classes and properties in the postdata-structuralElements ontology</p>
-<div style="text-align: center"><img src="http://postdata.linhd.uned.es/ontology/structural.png" width="90%"/></div>
+<html><h2 id="overv" class="list">postdata-structural ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
 This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
@@ -11,17 +9,22 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#OrderedLineList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList">OrderedLineList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedLineList">Ordered Line List</a>
    </li>
    <li>
       <a href="#OrderedStanzaList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList">OrderedStanzaList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#OrderedStanzaList">Ordered Stanza List</a>
    </li>
    <li>
       <a href="#Punctuation"
          title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Punctuation">Punctuation</a>
    </li>
-   
+   <li>
+      <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#Redaction"
+         title="http://postdata.linhd.uned.es/ontology/postdata-core#Redaction">
+         <span>redaction</span>
+      </a>
+   </li>
    <li>
       <a href="#Stanza"
          title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#Stanza">Stanza</a>
@@ -41,193 +44,187 @@ This ontology has the following classes and properties.</span>
 </ul><h4>Object Properties</h4><ul class="hlist">
    <li>
       <a href="#belongsToLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine">belongsToLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLine">belongs To Line</a>
    </li>
    <li>
       <a href="#belongsToLineList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList">belongsToLineList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToLineList">belongs To Line List</a>
    </li>
    <li>
       <a href="#belongsToStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza">belongsToStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanza">belongs To Stanza</a>
    </li>
    <li>
       <a href="#belongsToStanzaList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList">belongsToStanzaList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToStanzaList">belongs To Stanza List</a>
    </li>
    <li>
       <a href="#belongsToWord"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord">belongsToWord</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToWord">belongs To Word</a>
    </li>
    <li>
       <a href="#containsMentionTo"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo">containsMentionTo</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionTo">contains Mention To</a>
    </li>
    <li>
       <a href="#containsMentionToAgent"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent">containsMentionToAgent</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToAgent">contains Mention To Agent</a>
    </li>
    <li>
       <a href="#containsMentionToPlace"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace">containsMentionToPlace</a>
-   </li>
-   <li>
-      <a href="#hasFirstSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable">
-         <span>has first syllable</span>
-      </a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#containsMentionToPlace">contains Mention To Place</a>
    </li>
    <li>
       <a href="#hasFirstLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine">hasFirstLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstLine">has First Line</a>
    </li>
    <li>
       <a href="#hasFirstStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza">hasFirstStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstStanza">has First Stanza</a>
+   </li>
+   <li>
+      <a href="#hasFirstSyllable"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstSyllable">has First Syllable</a>
    </li>
    <li>
       <a href="#hasFirstToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken">hasFirstToken</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasFirstToken">has First Token</a>
    </li>
    <li>
       <a href="#hasLastLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine">hasLastLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastLine">has Last Line</a>
    </li>
    <li>
       <a href="#hasLastStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza">hasLastStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastStanza">has Last Stanza</a>
    </li>
    <li>
       <a href="#hasLastSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable">hasLastSyllable</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastSyllable">has Last Syllable</a>
    </li>
    <li>
       <a href="#hasLastToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken">hasLastToken</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLastToken">has Last Token</a>
    </li>
    <li>
       <a href="#hasLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine">hasLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLine">has Line</a>
    </li>
    <li>
       <a href="#hasLineItem"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem">hasLineItem</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineItem">has Line Item</a>
    </li>
    <li>
       <a href="#hasLineList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList">hasLineList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasLineList">has Line List</a>
    </li>
    <li>
       <a href="#hasStanzaItem"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem">hasStanzaItem</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaItem">has Stanza Item</a>
    </li>
    <li>
       <a href="#hasStanzaList"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList">hasStanzaList</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasStanzaList">has Stanza List</a>
    </li>
    <li>
       <a href="#hasToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken">hasToken</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#hasToken">has Token</a>
    </li>
    <li>
-      <a href="#isInflectedForm"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isInflectedForm">inflectedForm</a>
+      <a href="#inflectedForm"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#inflectedForm">inflected Form</a>
    </li>
    <li>
       <a href="#isCallOf"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf">isCallOf</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isCallOf">is Call Of</a>
    </li>
    <li>
-      <a href="#isEchoOf"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isEchoOf">isEchoOf</a>
+      <a href="#isFirstLineOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLineOf">is First Line of</a>
    </li>
    <li>
-      <a href="#isFirstLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstLine">isFirstLine</a>
+      <a href="#isFirstStanzaOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanzaOf">is First Stanza of</a>
    </li>
    <li>
-      <a href="#isFirstStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstStanza">isFirstStanza</a>
+      <a href="#isFirstSyllableOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllableOf">is First Syllable of</a>
    </li>
    <li>
-      <a href="#isFirstSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstSyllable">isFirstSyllable</a>
+      <a href="#isFirstTokenOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstTokenOf">is First Token of</a>
    </li>
    <li>
-      <a href="#isFirstToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isFirstToken">isFirstToken</a>
+      <a href="#isLastLineOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLineOf">is Last Line of</a>
    </li>
    <li>
-      <a href="#isLastLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastLine">isLastLine</a>
+      <a href="#isLastStanzaOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanzaOf">is Last Stanza of</a>
    </li>
    <li>
-      <a href="#isLastStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastStanza">isLastStanza</a>
+      <a href="#isLastSyllableOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllableOf">is Last Syllable of</a>
    </li>
    <li>
-      <a href="#isLastSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastSyllable">isLastSyllable</a>
-   </li>
-   <li>
-      <a href="#isLastToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastToken">isLastToken</a>
+      <a href="#isLastTokenOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLastTokenOf">is Last Token of</a>
    </li>
    <li>
       <a href="#isLemma"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma">isLemma</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLemma">is Lemma of</a>
    </li>
    <li>
-      <a href="#isLineListOfRedaction"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOfRedaction">isLineListOfRedaction</a>
+      <a href="#isLineListOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isLineListOf">is Line List of</a>
    </li>
    <li>
-      <a href="#isStanzaListOfRedaction"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOfRedaction">isStanzaListOfRedaction</a>
+      <a href="#isStanzaListOf"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isStanzaListOf">is Stanza List of</a>
    </li>
    <li>
       <a href="#isTheSameAs"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs">isTheSameAs</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isTheSameAs">is the Same As</a>
    </li>
    <li>
       <a href="#nextLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine">nextLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextLine">next Line</a>
    </li>
    <li>
       <a href="#nextStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza">nextStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextStanza">next Stanza</a>
    </li>
    <li>
       <a href="#nextSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable">nextSyllable</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextSyllable">next Syllable</a>
    </li>
    <li>
       <a href="#nextToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken">nextToken</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nextToken">next Token</a>
    </li>
    <li>
       <a href="#nucleusType"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType">nucleusType</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#nucleusType">nucleus Type</a>
    </li>
    <li>
       <a href="#partOfSpeech"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech">partOfSpeech</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#partOfSpeech">part Of Speech</a>
    </li>
    <li>
       <a href="#previousLine"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine">previousLine</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousLine">previous Line</a>
    </li>
    <li>
       <a href="#previousStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza">previousStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousStanza">previous Stanza</a>
    </li>
    <li>
       <a href="#previousSyllable"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable">previousSyllable</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousSyllable">previous Syllable</a>
    </li>
    <li>
       <a href="#previousToken"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken">previousToken</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#previousToken">previous Token</a>
    </li>
    <li>
       <a href="#hasSyllable"
@@ -235,16 +232,20 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#typeOfStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza">typeOfStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanza">type Of Stanza</a>
    </li>
    <li>
       <a href="#typeOfStanzaEdition"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition">typeOfStanzaEdition</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#typeOfStanzaEdition">type Of Stanza Edition</a>
    </li>
 </ul><h4>Data Properties</h4><ul class="hlist">
    <li>
       <a href="#altStanzaNumber"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber">altStanzaNumber</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#altStanzaNumber">alt Stanza Number</a>
+   </li>
+   <li>
+      <a href="#belongsToRefrain"
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#belongsToRefrain">belongs To Refrain</a>
    </li>
    <li>
       <a href="#coda"
@@ -256,19 +257,19 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#firstHemistich"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich">firstHemistich</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#firstHemistich">first Hemistich</a>
    </li>
    <li>
       <a href="#isNotMetricStanza"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza">isNotMetricStanza</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isNotMetricStanza">is Not Metric Stanza</a>
    </li>
    <li>
       <a href="#isRefrain"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain">isRefrain</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrain">is Refrain</a>
    </li>
    <li>
       <a href="#isRefrainOmitted"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted">isRefrainOmitted</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#isRefrainOmitted">is Refrain Omitted</a>
    </li>
    <li>
       <a href="#lemma"
@@ -276,11 +277,11 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#lineNumber"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber">lineNumber</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#lineNumber">line Number</a>
    </li>
    <li>
       <a href="#morphologicalAnnotation"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation">morphologicalAnnotation</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#morphologicalAnnotation">morphological Annotation</a>
    </li>
    <li>
       <a href="#http://postdata.linhd.uned.es/ontology/postdata-core#notes"
@@ -296,15 +297,15 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#phoneticTranscription"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription">phoneticTranscription</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#phoneticTranscription">phonetic Transcription</a>
    </li>
    <li>
       <a href="#positionInWord"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord">positionInWord</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#positionInWord">position In Word</a>
    </li>
    <li>
       <a href="#secondHemistich"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich">secondHemistich</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#secondHemistich">second Hemistich</a>
    </li>
    <li>
       <a href="#sense"
@@ -312,7 +313,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#stanzaNumber"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber">stanzaNumber</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#stanzaNumber">stanza Number</a>
    </li>
    <li>
       <a href="#translation"
@@ -324,7 +325,7 @@ This ontology has the following classes and properties.</span>
    </li>
    <li>
       <a href="#wordNumber"
-         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber">wordNumber</a>
+         title="http://postdata.linhd.uned.es/ontology/postdata-structuralElements#wordNumber">word Number</a>
    </li>
 </ul><h4>Named Individuals</h4><ul class="hlist">
    <li>
@@ -339,8 +340,8 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
-      <a href="#http://postdata.linhd.uned.es/kos/stanzaEdition-type"
-         title="http://postdata.linhd.uned.es/kos/stanzaEdition-type">
+      <a href="#http://postdata.linhd.uned.es/kos/stanza-edition-type"
+         title="http://postdata.linhd.uned.es/kos/stanza-edition-type">
          <span>stanza edition type</span>
       </a>
    </li>
